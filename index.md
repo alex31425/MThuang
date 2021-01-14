@@ -5,6 +5,7 @@
 ### Category Name 1 
 
 [Project 1 Title](https://alex31425.github.io/MTHuang/sample_page)
+
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
