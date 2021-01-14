@@ -4,7 +4,7 @@
 
 ### Category Name 1 
 
-[Project 1 Title](https://alex31425.github.io/MTHuang/sample_page.md)
+[Project 1 Title](https://alex31425.github.io/MTHuang/Page-1.html)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
@@ -19,7 +19,7 @@
 
 ### Category Name 2
 
-- [Project 1 Title](https://alex31425.github.io/MTHuang/sample_page.md)
+- [Project 1 Title](https://alex31425.github.io/MTHuang/Page-1.html)
 - [Project 2 Title](http://example.com/)
 - [Project 3 Title](http://example.com/)
 - [Project 4 Title](http://example.com/)
