@@ -2,9 +2,9 @@
 
 ---
 
-### Category Name 1 
+### Exploratory Data Analysis
 
-[Project 1 Title](https://alex31425.github.io/MTHuang/sample_page)
+[Data Normalization for Numeric features](https://alex31425.github.io/MTHuang/sample_page)
 
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
@@ -18,8 +18,7 @@
 
 ---
 
-### Category Name 2
-
+### Feature Engineering 
 - [Project 1 Title](https://alex31425.github.io/MTHuang/sample_page)
 - [Project 2 Title](http://example.com/)
 - [Project 3 Title](http://example.com/)
@@ -27,10 +26,11 @@
 - [Project 5 Title](http://example.com/)
 
 ---
+### Evaluation Metrics Machine Learning
 
 
 
 
 ---
-
+### Machine Learning Models
 <!-- Remove above link if you don't want to attibute -->
