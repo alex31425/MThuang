@@ -6,7 +6,7 @@
     <img src="images/Python basic.png?raw=true"/>
     <figcaption><a href="https://content.techgig.com/how-to-learn-python-programming-effectively/articleshow/76188658.cms">Image source</a></figcaption>
 </figure>
-<br></br>
+<br>
 
 - [Python Basics -1](https://towardsdatascience.com/essential-python-every-data-scientist-should-know-in-2021-65e571c20d19)
 - [Python Basics -2](https://realpython.com/tutorials/basics/)
@@ -51,5 +51,11 @@
 ---
 ## Project
  - [Machine Learning Engineering for Predicting Major League Baseball Team Wins](https://github.com/alex31425/BDA696-MuTing/wiki)
+<br>
+<figure>
+    <img src="images/project baseball.jpg?raw=true"/>
+    <figcaption><a href="https://www.techrepublic.com/article/throwing-a-fastball-how-the-minnesota-twins-are-using-machine-learning-to-analyze-mounds-of-data/">Image source</a></figcaption>
+</figure>
+<br>
 Statistics play an important role in baseball which makes comparisons between players on field performance easy, and these combined statistics can also evaluate each team overall performance for a given days. In this project, I used a historical dataset on a Major League Baseball (MLB) to derive meaningful insights into player and team performance and apply machine learning algorithms to project the a game result. This work analyzes the pitch and batter data with decision tree model, random forest model, K-Nearest model, Kernel SVM, and XGBoost model to study what factors would affect the teams’ performance.
 <!-- Remove above link if you don't want to attibute -->
