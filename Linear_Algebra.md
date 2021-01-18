@@ -1,0 +1,6 @@
+- [Linear Algebra with SciPy](https://www.math.ubc.ca/~pwalls/math-python/linear-algebra/linear-algebra-scipy/)
+- [Python Introduction and Linear Algebra Review](https://web.stanford.edu/class/cs231a/section/section1.pdf)
+- [Introduction to Linear Algebra for Applied Machine Learning with Python](https://pabloinsente.github.io/intro-linear-algebra)
+- [Linear Algebra](https://python.quantecon.org/linear_algebra.html)
+- [Linear Algebra with Python](http://www.math.umbc.edu/~campbell/Computers/Python/linalg.html)
+- [Data Science and Linear Algebra Fundamentals with Python, SciPy, & NumPy](https://www.twilio.com/blog/2018/06/data-science-linear-algebra-python-scipy-numpy.html)
