@@ -4,16 +4,16 @@
 
 ### Exploratory Data Analysis
 
-[Data Normalization for Numeric features](https://alex31425.github.io/MTHuang/sample_page)
+- [Data Normalization for Numeric features](https://alex31425.github.io/MTHuang/sample_page)
 
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
-[Project 2 Title](/pdf/sample_presentation.pdf)
+- [Project 2 Title](/pdf/sample_presentation.pdf)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
-[Project 3 Title](http://example.com/)
+- [Project 3 Title](http://example.com/)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
@@ -27,7 +27,9 @@
 
 ---
 ### Evaluation Metrics Machine Learning
-
+- [Confusion Matrix](https://towardsdatascience.com/understanding-the-confusion-matrix-and-its-business-applications-c4e8aaf37f42)
+- [AUC - ROC Curve](https://towardsdatascience.com/understanding-auc-roc-curve-68b2303cc9c5)
+- 
 
 
 
