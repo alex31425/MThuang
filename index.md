@@ -61,6 +61,7 @@ Statistics play an important role in baseball which makes comparisons between pl
 <br>
 
 - [Analysis of Airbnb Lodging Service in San Diego](https://sites.google.com/sdsu.edu/bda594bairbnbanalysis/home)
-- [Report](/pdf/BDA594 G9 Final project report.pdf)
-- [Project 2 Title](/pdf/sample_presentation.pdf)
+<br>
+[Download report](/pdf/project_report_1.pdf)
+
 <!-- Remove above link if you don't want to attibute -->
