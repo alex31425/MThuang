@@ -3,7 +3,7 @@
 ### Python Basics & Cheat Sheets
 
 <figure>
-    <img src="images/Python basic.png?raw=true"/ alt='missing' />
+    <img src="images/Python basic.png?raw=true"/>
     <figcaption><a href="https://content.techgig.com/how-to-learn-python-programming-effectively/articleshow/76188658.cms">Image source</a></figcaption>
 </figure>
 <br></br>
