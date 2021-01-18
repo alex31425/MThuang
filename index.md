@@ -60,8 +60,8 @@
 Statistics play an important role in baseball which makes comparisons between players on field performance easy, and these combined statistics can also evaluate each team overall performance for a given days. In this project, I used a historical dataset on a Major League Baseball (MLB) to derive meaningful insights into player and team performance and apply machine learning algorithms to project the a game result. This work analyzes the pitch and batter data with decision tree model, random forest model, K-Nearest model, Kernel SVM, and XGBoost model to study what factors would affect the teams’ performance.
 <br>
 
-- [Analysis of Airbnb Lodging Service in San Diego](https://sites.google.com/sdsu.edu/bda594bairbnbanalysis/home)
+#### [Analysis of Airbnb Lodging Service in San Diego](https://sites.google.com/sdsu.edu/bda594bairbnbanalysis/home)
 <br>
-[Download report](/pdf/project_report_1.pdf)
+- [Download report](/pdf/project_report_1.pdf)
 
 <!-- Remove above link if you don't want to attibute -->
