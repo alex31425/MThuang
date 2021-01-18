@@ -2,11 +2,11 @@
 ---
 ### Python Basics & Cheat Sheets
 <img src="images/Python basic.png?raw=true"/>
-### [image source](https://content.techgig.com/how-to-learn-python-programming-effectively/articleshow/76188658.cms)
+
 
 <figure>
     <img src="images/Python basic.png?raw=true"/ alt='missing' />
-    <figcaption>Caption goes here</figcaption>
+    <figcaption>[image source](https://content.techgig.com/how-to-learn-python-programming-effectively/articleshow/76188658.cms)</figcaption>
 </figure>
 
 - [Python Basics -1](https://towardsdatascience.com/essential-python-every-data-scientist-should-know-in-2021-65e571c20d19)
