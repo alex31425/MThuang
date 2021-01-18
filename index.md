@@ -6,7 +6,7 @@
 
 <figure>
     <img src="images/Python basic.png?raw=true"/ alt='missing' />
-    <figcaption><a href="http://placekitten.com">placekitten.com</a></figcaption>
+    <figcaption><a href="https://content.techgig.com/how-to-learn-python-programming-effectively/articleshow/76188658.cms">Image source</a></figcaption>
 </figure>
 
 - [Python Basics -1](https://towardsdatascience.com/essential-python-every-data-scientist-should-know-in-2021-65e571c20d19)
