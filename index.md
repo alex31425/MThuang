@@ -41,9 +41,9 @@
 
 ---
 
-## Feature Engineering 
+## Feature Selection & Engineering 
 - [Project 1 Title](https://alex31425.github.io/MTHuang/sample_page)
-
+- [The Art of Finding the Best Features for Machine Learning](https://towardsdatascience.com/the-art-of-finding-the-best-features-for-machine-learning-a9074e2ca60d)
 
 ---
 ## Evaluation Metrics Machine Learning
