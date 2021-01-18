@@ -13,11 +13,13 @@ description: > # your text below (remove <br> elements if you don't need line br
   <br>
   <a href="https://alex31425.github.io/online-cv/">View My online CV</a>
   <br><br>
-  <a href="https://github.com/alex31425/MTHuang/blob/master/index.md#python-basics--cheat-sheets">Python Basics & Cheat Sheets</a>
-  
-  
-
-
+  - <a href="https://github.com/alex31425/MTHuang/blob/master/index.md#python-basics--cheat-sheets">Python Basics & Cheat Sheets</a>
+  <a href="https://github.com/alex31425/MTHuang/blob/master/index.md#exploratory-data-analysis">Exploratory Data Analysis</a>
+  <a href="https://github.com/alex31425/MTHuang/blob/master/index.md#exploratory-data-analysis">Exploratory Data Analysis</a>
+  <a href="https://github.com/alex31425/MTHuang/blob/master/index.md#feature-engineering">Feature Engineering</a>
+  <a href="https://github.com/alex31425/MTHuang/blob/master/index.md#evaluation-metrics-machine-learning">Evaluation Metrics Machine Learning</a>
+  <a href="https://github.com/alex31425/MTHuang/blob/master/index.md#machine-learning-models">Machine Learning Models</a>
+  <a href="https://github.com/alex31425/MTHuang/blob/master/index.md#project">Project</a>
 
 theme: jekyll-theme-minimal
 google_analytics: UA-000000-0 # your Google Analytics tracking ID here
