@@ -6,18 +6,17 @@ description: > # your text below (remove <br> elements if you don't need line br
   Second description 
   <br><br>
   Linkedin
+  <br>
   <a href="https://www.linkedin.com/in/mutinghuang/">View My LinkedIn Profile</a> 
   <br><br>
   CV
+  <br>
   <a href="https://alex31425.github.io/online-cv/">View My online CV</a>
   <br><br>
-  [Python Basics & Cheat Sheets](https://github.com/alex31425/MTHuang/blob/master/index.md#python-basics--cheat-sheets)
+  <a href="https://github.com/alex31425/MTHuang/blob/master/index.md#python-basics--cheat-sheets">Python Basics & Cheat Sheets</a>
   
-email: hello@webjeda.com
-phone: 012 345 6789
-website: blog.webjeda.com #do not add http://
-linkedin: alandoe
-github: sharu725
+  
+
 
 
 theme: jekyll-theme-minimal
