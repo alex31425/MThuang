@@ -17,12 +17,23 @@
 ## Exploratory Data Analysis
 
 - [Data Normalization for Numeric features](https://alex31425.github.io/MTHuang/sample_page)
+<br>
+<figure>
+    <img src="images/data_normalization.jpg?raw=true"/>
+    <figcaption><a href="https://www.import.io/post/what-is-data-normalization-and-why-is-it-important/">Image source</a></figcaption>
+</figure>
+<br>
 
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
-- [Project 2 Title](/pdf/sample_presentation.pdf)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+- [Outliers](https://medium.com/analytics-vidhya/detecting-outliers-using-box-and-whisker-diagrams-and-iqr-346a1b9c0dbe)
+<br>
+<figure>
+    <img src="images/outliers.jpg?raw=true"/>
+    <figcaption><a href="https://www.rapidinsight.com/blog/handle-outliers/">Image source</a></figcaption>
+</figure>
+<br>
+
 
 ---
 - [Project 3 Title](http://example.com/)
