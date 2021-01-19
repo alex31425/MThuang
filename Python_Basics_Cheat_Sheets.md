@@ -1,8 +1,9 @@
 
 - Tuple
-<br />
+<br>
 A tuple is a sequence and the elements in tuple are ordered and immutable. 
-1 
+1. Tuple creation : 
+<br>
 ---
 - List
 ---
