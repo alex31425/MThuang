@@ -7,10 +7,9 @@
     <figcaption><a href="https://content.techgig.com/how-to-learn-python-programming-effectively/articleshow/76188658.cms">Image source</a></figcaption>
 </figure>
 <br>
+[Read more](https://alex31425.github.io/MTHuang/Python_Basics_Cheat_Sheets)
 
-- [Python Basics -1](https://towardsdatascience.com/essential-python-every-data-scientist-should-know-in-2021-65e571c20d19)
-- [Python Basics -2](https://realpython.com/tutorials/basics/)
-- [Python Basics -3](https://blog.finxter.com/collection-5-cheat-sheets-every-python-coder-must-own/)
+
 
 ---
 
