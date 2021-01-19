@@ -3,7 +3,7 @@
 <br>
 A tuple is a sequence and the elements in tuple are ordered and immutable. 
 1. Tuple creation : `tup = 1,2,3`
-2. 
+2. Indexing and slicong : `tup[0] = 1` ; `tup[1:2] = (2,3)`
 <br>
 ---
 - List
