@@ -7,6 +7,11 @@
     <figcaption><a href="https://content.techgig.com/how-to-learn-python-programming-effectively/articleshow/76188658.cms">Image source</a></figcaption>
 </figure>
 <br>
+
+Python has become one of the most popular open source programming languages. Many powerful libraries that Python support have made a popular choice for data analysis tasks.
+There are four most commonly used Python libraries for data analysis : [NumPy](https://numpy.org/), a library for a variety of mathematical and statistical operations ; [pandas](https://pandas.pydata.org/), a library created specifically to facilitate working with data ; [Matplotlib](https://matplotlib.org/), a visualization library that makes it quick and easy to generate charts from data ; [scikit-learn](https://scikit-learn.org/stable/), The most popular library for machine learning work in Python.<br />
+This article introduces Python’s built-in data manipulation tools whcih is helpful to understand Python's add-on libraries like pandas and NumPy for advanced computational functionality for larger datasets.
+
 [Read more](https://alex31425.github.io/MTHuang/Python_Basics_Cheat_Sheets)
 
 
