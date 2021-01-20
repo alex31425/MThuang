@@ -20,11 +20,11 @@ description: > # your text below (remove <br> elements if you don't need line br
   <br>
   - <a href="https://medium.com/analytics-vidhya/detecting-outliers-using-box-and-whisker-diagrams-and-iqr-346a1b9c0dbe">Outliers</a>
   <br>
-  Feature Selection & Engineering
+  <b>Feature Selection & Engineering</b>
   <br>
   - <a href="https://towardsdatascience.com/the-art-of-finding-the-best-features-for-machine-learning-a9074e2ca60d">The Art of Finding the Best Features for Machine Learning</a>
   <br>
-  Evaluation Metrics Machine Learning
+  <b>Evaluation Metrics Machine Learning</b>
   <br>
   - <a href="https://towardsdatascience.com/understanding-the-confusion-matrix-and-its-business-applications-c4e8aaf37f42">Confusion Matrix</a>
   <br>
@@ -32,7 +32,7 @@ description: > # your text below (remove <br> elements if you don't need line br
   <br>
   <a href="https://alex31425.github.io/MTHuang/Machine_Learning_models">Machine Learning Models</a>
   <br>
-  Project
+  <b>Project</b>
   <br>
   - <a href="https://github.com/alex31425/BDA696-MuTing/wiki">Machine Learning Engineering for Predicting Major League Baseball Team Wins</a>
   <br>
