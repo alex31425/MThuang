@@ -14,25 +14,25 @@ description: > # your text below (remove <br> elements if you don't need line br
   <a href="https://alex31425.github.io/online-cv/">View My online CV</a>
   <br><br>
   <a href="https://alex31425.github.io/MTHuang/Python_Basics_Cheat_Sheets">Python Basics & Cheat Sheets</a>
-  Exploratory Data Analysis
+  **Exploratory Data Analysis**
   <br>
   - <a href="https://alex31425.github.io/MTHuang/sample_page">Data Normalization for Numeric features</a>
   <br>
   - <a href="https://medium.com/analytics-vidhya/detecting-outliers-using-box-and-whisker-diagrams-and-iqr-346a1b9c0dbe">Outliers</a>
   <br>
-  Feature Selection & Engineering 
+  **Feature Selection & Engineering**
   <br>
   - <a href="https://towardsdatascience.com/the-art-of-finding-the-best-features-for-machine-learning-a9074e2ca60d">The Art of Finding the Best Features for Machine Learning</a>
   <br>
-  Evaluation Metrics Machine Learning
+  **Evaluation Metrics Machine Learning**
   <br>
-  - <a href="https://towardsdatascience.com/understanding-the-confusion-matrix-and-its-business-applications-c4e8aaf37f42">Confusion Matrix/a>
+  - <a href="https://towardsdatascience.com/understanding-the-confusion-matrix-and-its-business-applications-c4e8aaf37f42">Confusion Matrix</a>
   <br>
   - <a href="https://towardsdatascience.com/understanding-auc-roc-curve-68b2303cc9c5">AUC - ROC Curve</a>
   <br>
   <a href="https://alex31425.github.io/MTHuang/Machine_Learning_models">Machine Learning Models</a>
   <br>
-  Project
+  **Project**
   <br>
   - <a href="https://github.com/alex31425/BDA696-MuTing/wiki">Machine Learning Engineering for Predicting Major League Baseball Team Wins/a>
   <br>
