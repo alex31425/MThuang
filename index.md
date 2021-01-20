@@ -53,7 +53,7 @@ This article introduces Python’s built-in data manipulation tools whcih is hel
 
 
 ---
-## [Machine Learning Models](https://alex31425.github.io/MTHuang/Machine_Learning_models)
+## Machine Learning Models
 
 <figure>
     <img src="images/ML.jpeg?raw=true"/>
