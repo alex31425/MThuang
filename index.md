@@ -41,26 +41,21 @@ This article introduces Python’s built-in data manipulation tools whcih is hel
 
 
 ---
-- [Project 3 Title](http://example.com/)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
----
 
 ## Feature Selection & Engineering 
-- [Project 1 Title](https://alex31425.github.io/MTHuang/sample_page)
 - [The Art of Finding the Best Features for Machine Learning](https://towardsdatascience.com/the-art-of-finding-the-best-features-for-machine-learning-a9074e2ca60d)
 
 ---
 ## Evaluation Metrics Machine Learning
 - [Confusion Matrix](https://towardsdatascience.com/understanding-the-confusion-matrix-and-its-business-applications-c4e8aaf37f42)
 - [AUC - ROC Curve](https://towardsdatascience.com/understanding-auc-roc-curve-68b2303cc9c5)
-- 
 
 
 
 ---
 ## Machine Learning Models
 
+[Read more](https://alex31425.github.io/MTHuang/Machine_Learning_models)
 ---
 # Project
 ### [Machine Learning Engineering for Predicting Major League Baseball Team Wins](https://github.com/alex31425/BDA696-MuTing/wiki)
