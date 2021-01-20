@@ -55,7 +55,17 @@ This article introduces Python’s built-in data manipulation tools whcih is hel
 ---
 ## Machine Learning Models
 
+<figure>
+    <img src="images/ML.jpeg?raw=true"/>
+    <figcaption><a href="https://towardsdatascience.com/machine-learning-for-beginners-d247a9420dab">Image source</a></figcaption>
+</figure>
+<br>
+
+Before building machine learning models, it is important to prepare data prior to modeling. This may involve replacing missing values, scaling numerical values, and one hot encoding categorical data. Data transforms can be performed using the scikit-learn library; for example, the SimpleImputer class can be used to replace missing values, the MinMaxScaler class can be used to scale numerical values, and the OneHotEncoder can be used to encode categorical variables. The [ColumnTransformer](https://scikit-learn.org/stable/modules/generated/sklearn.compose.ColumnTransformer.html) is a class in the scikit-learn Python machine learning library that allows you to apply data preparation transforms. The categorical and numerical columns is first being identified and then use ColumnTransformer to transfer data. Second, use [sklearn.model_selection train_test_split](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html) to split arrays into train and test subsets. We are ready to build the machine learning models. Here are the models I am going to train and test the data.
+ 
 [Read more](https://alex31425.github.io/MTHuang/Machine_Learning_models)
+
+
 ---
 # Project
 ### [Machine Learning Engineering for Predicting Major League Baseball Team Wins](https://github.com/alex31425/BDA696-MuTing/wiki)
