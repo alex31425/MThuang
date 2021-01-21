@@ -89,6 +89,7 @@ Airbnb is an online rental marketplace that allows hosts to post their propertie
 I am responsible for build the machine learning models to conduct predictive analytics which predicts the rental price.
 
 [Download report](/pdf/project_report_1.pdf)
+<br>
 [Code](https://nbviewer.jupyter.org/github/alex31425/GEOG594-MTHuang/blob/2bf57d19de627d5526f712c3198273376a726b2e/BDA594-combined.ipynb)
 
 <!-- Remove above link if you don't want to attibute -->
