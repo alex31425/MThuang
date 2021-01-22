@@ -30,7 +30,7 @@ A tuple is a sequence and the elements in tuple are ordered and immutable.
 <br>
 `tup = (1, [3, 2], 3, 'a', True)`
 <br>
-`tup[1].append(5) ; tup = (1, [3, 2, 5], 3, 'a', True)`
+`tup[1].append(5)=>tup = (1, [3, 2, 5], 3, 'a', True)`
 <br>
 7. Concatenate and Multiply a tuple : 
 <br>
