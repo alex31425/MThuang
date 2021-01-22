@@ -76,17 +76,21 @@ In contrast with tuple, list contents can be modified in-place. A list can be cr
 <br>
 `l.sort()=>[2, 3, 5, 6, 10]`
 <br>
-7.Slicing
-
-
-
+`sorted(l)` # returns a new sorted list
+7. Slicing
+[Start Index:End Index] start index is included, the stop index is not included
+<figure>
+    <img src="images/Slicing.jpg?raw=true"/>
+    <figcaption><a href="https://www.geeksforgeeks.org/python-list/">Image source</a></figcaption>
+</figure>
+<br>
+`l[1:3]=>[3, 5] ; l[:-1]=>[2, 3, 5, 6] ; l[-3:]=>[5, 6, 10]`
 
 ---
 - Dict
 ---
 - Set
 ---
-- List, Set, and Dict Comprehensions
 
 Reference :
 - https://towardsdatascience.com/essential-python-every-data-scientist-should-know-in-2021-65e571c20d19
