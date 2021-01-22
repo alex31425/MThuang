@@ -26,7 +26,9 @@ A tuple is a sequence and the elements in tuple are ordered and immutable.
 <br>
 6. If the tuple contains LIST, which is mutable, the elements in the LIST can be modified: 
 <br>
-`tup = (1,[1,2],3,'a',True) ; tup[1][0]=3 ; tup = (1, [3, 2], 3, 'a', True)`
+`tup = (1,[1,2],3,'a',True) ; tup[1][0]=3` ; 
+<br>
+`tup = (1, [3, 2], 3, 'a', True)`
 <br>
 `tup[1].append(5) ; tup = (1, [3, 2, 5], 3, 'a', True)`
 <br>
