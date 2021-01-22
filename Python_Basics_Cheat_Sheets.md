@@ -36,6 +36,7 @@ A tuple is a sequence and the elements in tuple are ordered and immutable.
 <br>
 `tup = (1,2,3)*2 = (1, 2, 3, 1, 2, 3) ; tup = (1,2,3), tup1 = (2,5), tup+tup1 = (1, 2, 3, 2, 5)`
 <br>
+
 ---
 
 - List
