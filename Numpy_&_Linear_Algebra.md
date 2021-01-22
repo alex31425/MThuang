@@ -5,3 +5,7 @@
 - [Linear Algebra](https://python.quantecon.org/linear_algebra.html)
 - [Linear Algebra with Python](http://www.math.umbc.edu/~campbell/Computers/Python/linalg.html)
 - [Data Science and Linear Algebra Fundamentals with Python, SciPy, & NumPy](https://www.twilio.com/blog/2018/06/data-science-linear-algebra-python-scipy-numpy.html)
+- [Linear Algebra for Data Science Ep1 — Introduction to Vectors and Matrices using Python](https://towardsdatascience.com/introduction-to-vectors-and-matrices-using-python-for-data-science-e836e014eb12)
+- [Dot Product in Linear Algebra for Data Science using Python](https://towardsdatascience.com/dot-product-in-linear-algebra-for-data-science-using-python-f113fb60c8f)
+- [Linear Algebra for Data Science Ep 3 — Identity and Inverse Matrices](https://towardsdatascience.com/linear-algebra-for-data-science-ep-3-identity-and-inverse-matrices-70820a3fbdb9)
+- [Numpy Essentials for Data Science](https://towardsdatascience.com/numpy-essentials-for-data-science-25dc39fae39)
