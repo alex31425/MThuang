@@ -23,3 +23,6 @@ The accuracy rate (53%) for the KNeighbors model is the highest among these mode
 * [Support Vector Machines](https://scikit-learn.org/stable/modules/svm.html)\
 Support Vector Machines (SVM) is a learning algorithms that analyze data for classification and regression analysis.Support Vector Machines outputs an optimal line of separation between the classes based on the training data served as input. This line of separation is called a hyperplane in a multi dimensional environment.\
 
+
+- [Machine Learning Models Explained to a Five-year-old](https://towardsdatascience.com/machine-learning-models-explained-to-a-five-year-old-f2f540d9dcea)
+- [Data Science Concepts Explained to a Five-year-old](https://towardsdatascience.com/data-science-concepts-explained-to-a-five-year-old-ad440c7b3cbd)
