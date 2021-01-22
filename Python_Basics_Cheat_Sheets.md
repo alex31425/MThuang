@@ -37,6 +37,7 @@ A tuple is a sequence and the elements in tuple are ordered and immutable.
 `tup = (1,2,3)*2 = (1, 2, 3, 1, 2, 3) ; tup = (1,2,3), tup1 = (2,5), tup+tup1 = (1, 2, 3, 2, 5)`
 <br>
 ---
+
 - List
 <br>
 In contrast with tuple, list contents can be modified in-place. A list can be created by using square brackets [] or using the list type function:
@@ -89,6 +90,7 @@ In contrast with tuple, list contents can be modified in-place. A list can be cr
     <figcaption><a href="https://www.geeksforgeeks.org/python-list/">Image source</a></figcaption>
 </figure>
 <br>
+
 ---
 - Dictionary
 1. create a dictionary
@@ -119,6 +121,30 @@ In contrast with tuple, list contents can be modified in-place. A list can be cr
 
 ---
 - Set
+<br>
+A set is an unordered collection of unique elements.
+<br>
+1. create a set
+<br>
+`s = {1,1,2,3,3,4,5}=>{1, 2, 3, 4, 5}` or
+`s1 = set([1,1,2,3,3,4,5])=>{1, 2, 3, 4, 5}`
+<br>
+2. set operations
+<br>
+`s.union(b`) or `s | s1`
+<br>
+`s.remove(x)`
+<br>
+`s.pop()`
+<br>
+`s.intersection(s1)` or `s & s1`
+<br>
+`s.difference(s1)` or `s - s1`
+<br>
+`s.symmetric_difference(s1)` or `s ^ s1`
+<br>
+
+
 ---
 
 Reference :
