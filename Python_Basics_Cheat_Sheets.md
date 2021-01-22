@@ -35,6 +35,7 @@ A tuple is a sequence and the elements in tuple are ordered and immutable.
 7. Concatenate and Multiply a tuple : 
 <br>
 `tup = (1,2,3)*2 = (1, 2, 3, 1, 2, 3) ; tup = (1,2,3), tup1 = (2,5), tup+tup1 = (1, 2, 3, 2, 5)`
+<br>
 ---
 - List
 <br>
@@ -78,16 +79,44 @@ In contrast with tuple, list contents can be modified in-place. A list can be cr
 <br>
 `sorted(l)` # returns a new sorted list
 7. Slicing
+<br>
 [Start Index:End Index] start index is included, the stop index is not included
+<br>
+`l[1:3]=>[3, 5] ; l[:-1]=>[2, 3, 5, 6] ; l[-3:]=>[5, 6, 10]`
+<br>
 <figure>
     <img src="images/Slicing.jpg?raw=true"/>
     <figcaption><a href="https://www.geeksforgeeks.org/python-list/">Image source</a></figcaption>
 </figure>
 <br>
-`l[1:3]=>[3, 5] ; l[:-1]=>[2, 3, 5, 6] ; l[-3:]=>[5, 6, 10]`
-
 ---
-- Dict
+- Dictionary
+1. create a dictionary
+<br>
+`d = {'a':1,'b':2}=>{'a': 1, 'b': 2}` or 
+<br>
+`d1 = dict(a=1,b=2)=>{'a': 1, 'b': 2}`
+<br>
+2. access and insert elements
+<br>
+`d['a']=>1` ; 
+<br>
+`d['c']=3 , d= {'a': 1, 'b': 2, 'c': 3}`
+<br>
+`d.get('c')=>3`
+<br>
+3. delete values
+<br>
+`del d['a']=>{'b': 2, 'c': 3}`
+<br>
+`d.pop('b')=>2` # return the deleted value
+<br>
+4. items(), keys(), values() methods
+<br>
+`d1.values()=>dict_values([1, 2])`
+`d1.keys()=>dict_keys(['a', 'b'])`
+`d1.items()=>dict_items([('a', 1), ('b', 2)])`
+
 ---
 - Set
 ---
