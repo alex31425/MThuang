@@ -152,3 +152,5 @@ Reference :
 - https://towardsdatascience.com/essential-python-every-data-scientist-should-know-in-2021-65e571c20d19
 - https://realpython.com/tutorials/basics/
 - https://blog.finxter.com/collection-5-cheat-sheets-every-python-coder-must-own/
+- https://www.w3schools.com/python/default.asp
+- https://www.geeksforgeeks.org/python-programming-language/
