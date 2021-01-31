@@ -48,6 +48,8 @@ This article introduces Python’s built-in data manipulation tools whcih is hel
 - [Feature Selection in Python](https://medium.com/towards-artificial-intelligence/feature-selection-in-python-predictive-hacks-8805b136955e)
 - [Preprocessing: OneHotEncoder() vs pandas.get_dummies](https://albertum.medium.com/preprocessing-onehotencoder-vs-pandas-get-dummies-3de1f3d77dcc)
 - [5 Concepts Every Data Scientist Should Know](https://towardsdatascience.com/5-concepts-every-data-scientist-should-know-16c74d080a83)
+- [Features Engineering: behind the scenes of ML algorithms](https://medium.com/datadriveninvestor/features-engineering-behind-the-scenes-of-ml-algorithms-e356e38073d)
+
 ---
 ## Evaluation Metrics Machine Learning
 - [Confusion Matrix](https://towardsdatascience.com/understanding-the-confusion-matrix-and-its-business-applications-c4e8aaf37f42)
