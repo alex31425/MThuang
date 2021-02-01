@@ -21,7 +21,7 @@ This article introduces Python’s built-in data manipulation tools whcih is hel
 
 ## Exploratory Data Analysis
 
-- [Exploratory Data Analysis - overview](https://alex31425.github.io/Exploratory_Data_Analysis)
+- [Exploratory Data Analysis - overview](https://alex31425.github.io/MTHuang/Exploratory_Data_Analysis)
 <br>
 <figure>
     <img src="images/EDAoverview.png?raw=true"/>
