@@ -21,6 +21,14 @@ This article introduces Python’s built-in data manipulation tools whcih is hel
 
 ## Exploratory Data Analysis
 
+- [Exploratory Data Analysis - overview]()
+<br>
+<figure>
+    <img src="images/EDAoverview.png?raw=true"/>
+    <figcaption><a href="http://dsguide.biz/reader/tag/exploratory-data-analysis">Image source</a></figcaption>
+</figure>
+<br>
+
 - [Data Normalization for Numeric features](https://alex31425.github.io/MTHuang/sample_page)
 <br>
 <figure>
