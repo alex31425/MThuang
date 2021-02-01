@@ -28,6 +28,9 @@ This article introduces Python’s built-in data manipulation tools whcih is hel
     <figcaption><a href="http://dsguide.biz/reader/tag/exploratory-data-analysis">Image source</a></figcaption>
 </figure>
 <br>
+What is the exploratory data analysis? According to the [Wikipedia](https://en.wikipedia.org/wiki/Exploratory_data_analysis), Exploratory Data Analysis (EDA) is an approach to analyzing data sets to summarize their main characteristics, often with visual methods. A statistical model can be used or not, but primarily EDA is for seeing what the data can tell us beyond the formal modeling or hypothesis testing task. 
+
+
 
 - [Data Normalization for Numeric features](https://alex31425.github.io/MTHuang/sample_page)
 <br>
