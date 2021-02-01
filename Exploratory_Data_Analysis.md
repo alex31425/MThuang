@@ -8,3 +8,6 @@ What is the exploratory data analysis? According to the [Wikipedia](https://en.w
 - [Identify Outliers](https://medium.com/swlh/identify-outliers-with-pandas-statsmodels-and-seaborn-2766103bf67c)
 - [Data Analysis Practices ](https://towardsdatascience.com/how-i-optimized-my-data-analysis-practices-hacks-libraries-you-should-start-using-3a7308b668da)
 - [Ames Housing Price Prediction — Complete ML Project with Python](https://medium.com/@kamskijohnm2m/ames-housing-price-prediction-complete-ml-project-with-python-2af595a749d6)
+- [Exploratory data analysis in Python](https://towardsdatascience.com/exploratory-data-analysis-in-python-c9a77dfa39ce)
+- [Exploratory Data Analysis, Feature Engineering, and Modelling using Supermarket Sales Data](https://towardsdatascience.com/exploratory-data-analysis-feature-engineering-and-modelling-using-supermarket-sales-data-part-1-228140f89298)
+- []()
