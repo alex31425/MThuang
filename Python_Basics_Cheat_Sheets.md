@@ -154,3 +154,4 @@ Reference :
 - https://blog.finxter.com/collection-5-cheat-sheets-every-python-coder-must-own/
 - https://www.w3schools.com/python/default.asp
 - https://www.geeksforgeeks.org/python-programming-language/
+- https://medium.com/pythonland/30-python-language-tricks-that-will-make-you-a-better-coder-f08f811a7b0f
