@@ -1,4 +1,4 @@
-# Article
+# Data Science Blog
 ---
 ## Python Basics & Cheat Sheets
 
