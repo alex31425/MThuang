@@ -1,3 +1,4 @@
 - [Getting Starting with Algorithmic Trading with Python](https://medium.com/datadriveninvestor/getting-starting-with-algorithmic-trading-with-python-1ae169cc1705)
 - [Introduction to Time Series Forecasting of Stock Prices with Python](https://www.datadriveninvestor.com/2020/07/07/introduction-to-time-series-forecasting-of-stock-prices-with-python/)
 - [Fundamental Statistics](https://sites.google.com/site/fundamentalstatistics/unit-1-the-basics)
+- [Basic Concepts About Time Series](https://daihongchen2011.medium.com/some-basic-concepts-of-time-series-forecasting-c0f28c9f08e0)
