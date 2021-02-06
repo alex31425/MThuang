@@ -62,6 +62,7 @@ What is the exploratory data analysis? According to the [Wikipedia](https://en.w
 - [5 Concepts Every Data Scientist Should Know](https://towardsdatascience.com/5-concepts-every-data-scientist-should-know-16c74d080a83)
 - [Features Engineering: behind the scenes of ML algorithms](https://medium.com/datadriveninvestor/features-engineering-behind-the-scenes-of-ml-algorithms-e356e38073d)
 - [Kaggle House Prices Prediction with Linear Regression and Gradient Boosting](https://medium.com/analytics-vidhya/kaggle-house-prices-prediction-with-linear-regression-and-gradient-boosting-c5694d9c6df4)
+- [Feature Selection in Machine Learning](https://medium.com/towards-artificial-intelligence/feature-selection-in-machine-learning-3b2902852933)
 ---
 ## Evaluation Metrics Machine Learning
 - [Confusion Matrix](https://towardsdatascience.com/understanding-the-confusion-matrix-and-its-business-applications-c4e8aaf37f42)
