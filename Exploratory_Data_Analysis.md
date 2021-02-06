@@ -7,6 +7,23 @@ What is the exploratory data analysis? According to the [Wikipedia](https://en.w
 data.isnull().sum()
 ```
 
+
+
+
+    fixed acidity           0
+    volatile acidity        0
+    citric acid             0
+    residual sugar          0
+    chlorides               0
+    free sulfur dioxide     0
+    total sulfur dioxide    0
+    density                 0
+    pH                      0
+    sulphates               0
+    alcohol                 0
+    quality                 0
+    dtype: int64
+
 - [Exploratory Data Analysis](https://towardsdatascience.com/hitchhikers-guide-to-exploratory-data-analysis-6e8d896d3f7e)
 - [Exploratory Data Analysis(Part- 2)](https://towardsdatascience.com/hitchhikers-guide-to-exploratory-data-analysis-part-2-36ab72201e1d)
 - [Identify Outliers](https://medium.com/swlh/identify-outliers-with-pandas-statsmodels-and-seaborn-2766103bf67c)
