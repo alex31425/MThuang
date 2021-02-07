@@ -205,6 +205,244 @@ In contrast with tuple, list contents can be modified in-place. A list can be cr
 <br>
 `l[1:3]=>[3, 5] ; l[:-1]=>[2, 3, 5, 6] ; l[-3:]=>[5, 6, 10]`
 <br>
+## List
+
+### In contrast with tuple, list contents can be modified in-place. A list can be created by using square brackets [ ] or using the list type function:
+
+### Tuple creation :
+
+
+```python
+l = [1,2,3] 
+type(l) 
+```
+
+
+
+
+    list
+
+
+
+### Swutch between tuple and list:
+
+
+```python
+tup = ('a','b')
+list(tup)
+```
+
+
+
+
+    ['a', 'b']
+
+
+
+### Check if a element in a list:
+
+
+
+```python
+1 in l
+```
+
+
+
+
+    True
+
+
+
+### Add, modify, and remove elements form the list
+
+
+
+```python
+l.append(7) # add element
+l
+```
+
+
+
+
+    [1, 2, 3, 7]
+
+
+
+
+```python
+l[3]= 8 # modify element
+l
+```
+
+
+
+
+    [1, 2, 3, 8]
+
+
+
+
+```python
+l.insert(4,10) # insert an element at a specific location in the list
+l
+```
+
+
+
+
+    [1, 2, 3, 8, 10]
+
+
+
+
+```python
+l.pop(0) # removes and returns an element at a particular index
+l
+```
+
+
+
+
+    [2, 3, 8, 10]
+
+
+
+
+```python
+l.remove(2) # remove elements by value
+l
+```
+
+
+
+
+    [3, 8, 10]
+
+
+
+### Combine & concatenate list
+
+
+
+```python
+l2 = [5,6,(8,9)]
+l.extend(l2)
+l
+```
+
+
+
+
+    [3, 8, 10, 5, 6, (8, 9)]
+
+
+
+
+```python
+l3 = [10,11]
+l+l3
+
+```
+
+
+
+
+    [3, 8, 10, 5, 6, 10, 11]
+
+
+
+
+```python
+del l[5] # delete elements by their index
+l
+```
+
+
+
+
+    [3, 8, 10, 5, 6]
+
+
+
+### Sorting
+
+
+
+```python
+l4 = [10,9,1,5,3,2]
+l4.reverse()
+l4
+```
+
+
+
+
+    [2, 3, 5, 1, 9, 10]
+
+
+
+
+```python
+l4.sort()
+l4
+```
+
+
+
+
+    [1, 2, 3, 5, 9, 10]
+
+
+
+
+```python
+l5 = [11,10,9,8,7,6]
+print(f' New list : {sorted(l5)};\n Original list : {l5}') # returns a new sorted list
+```
+
+     New list : [6, 7, 8, 9, 10, 11];
+     Original list : [11, 10, 9, 8, 7, 6]
+    
+
+### Slicing
+
+### [Start Index:End Index] start index is included, the stop index is not included
+
+
+```python
+l5[1:3]
+```
+
+
+
+
+    [10, 9]
+
+
+
+
+```python
+l5[:-1]
+```
+
+
+
+
+    [11, 10, 9, 8, 7]
+
+
+
+
+```python
+l5[-3:]
+```
+
+
+
+
+    [8, 7, 6]
 <figure>
     <img src="images/Slicing.jpg?raw=true"/>
     <figcaption><a href="https://www.geeksforgeeks.org/python-list/">Image source</a></figcaption>
