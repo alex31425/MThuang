@@ -404,57 +404,223 @@ l5[-3:]
 <br>
 
 ---
-- Dictionary
-1. create a dictionary
-<br>
-`d = {'a':1,'b':2}=>{'a': 1, 'b': 2}` or 
-<br>
-`d1 = dict(a=1,b=2)=>{'a': 1, 'b': 2}`
-<br>
-2. access and insert elements
-<br>
-`d['a']=>1` ; 
-<br>
-`d['c']=3 , d= {'a': 1, 'b': 2, 'c': 3}`
-<br>
-`d.get('c')=>3`
-<br>
-3. delete values
-<br>
-`del d['a']=>{'b': 2, 'c': 3}`
-<br>
-`d.pop('b')=>2` # return the deleted value
-<br>
-4. items(), keys(), values() methods
-<br>
-`d1.values()=>dict_values([1, 2])`
-`d1.keys()=>dict_keys(['a', 'b'])`
-`d1.items()=>dict_items([('a', 1), ('b', 2)])`
+- ## Dictionary
+
+
+### create a dictionary
+
+
+
+```python
+d= {'a': 1, 'b': 2, 'c': 3} # first method
+d1 = dict(a=1,b=2) # second method
+d,d1
+```
+
+
+
+
+    ({'a': 1, 'b': 2, 'c': 3}, {'a': 1, 'b': 2})
+
+
+
+### access and insert elements
+
+
+
+```python
+d['a']
+```
+
+
+
+
+    1
+
+
+
+
+```python
+d['c']
+```
+
+
+
+
+    3
+
+
+
+
+```python
+d.get('c')
+```
+
+
+
+
+    3
+
+
+
+### delete values
+
+
+
+```python
+del d['a']
+d
+```
+
+
+
+
+    {'b': 2, 'c': 3}
+
+
+
+
+```python
+d.pop('b')  # return the deleted value
+```
+
+
+
+
+    2
+
+
+
+### items(), keys(), values() methods
+
+
+```python
+d1.values()
+```
+
+
+
+
+    dict_values([1, 2])
+
+
+
+
+```python
+d1.keys()
+```
+
+
+
+
+    dict_keys(['a', 'b'])
+
+
+
+
+```python
+d1.items()
+```
+
+
+
+
+    dict_items([('a', 1), ('b', 2)])
 
 ---
-- Set
-<br>
-A set is an unordered collection of unique elements.
-<br>
-1. create a set
-<br>
-`s = {1,1,2,3,3,4,5}=>{1, 2, 3, 4, 5}` or
-`s1 = set([1,1,2,3,3,4,5])=>{1, 2, 3, 4, 5}`
-<br>
-2. set operations
-<br>
-`s.union(b`) or `s | s1`
-<br>
-`s.remove(x)`
-<br>
-`s.pop()`
-<br>
-`s.intersection(s1)` or `s & s1`
-<br>
-`s.difference(s1)` or `s - s1`
-<br>
-`s.symmetric_difference(s1)` or `s ^ s1`
-<br>
+- ## Set
+
+
+### A set is an unordered collection of unique elements.
+
+
+### create a set
+
+
+
+```python
+s = {1,1,2,3,3,4,5} # first method
+s1 = set([1,2,3,4,5,6,7]) # second method
+s,s1
+```
+
+
+
+
+    ({1, 2, 3, 4, 5}, {1, 2, 3, 4, 5, 6, 7})
+
+
+
+### set operations
+
+
+```python
+s.union(s1) # first method
+s | s1 # second method
+print(f' first method : {s.union(s1) },\n second method : {s | s1}')
+```
+
+     first method : {1, 2, 3, 4, 5, 6, 7},
+     second method : {1, 2, 3, 4, 5, 6, 7}
+    
+
+
+```python
+s.remove(5)
+s
+```
+
+
+
+
+    {1, 2, 3, 4}
+
+
+
+
+```python
+s.pop() # return the deleted value
+
+```
+
+
+
+
+    1
+
+
+
+
+```python
+s.intersection(s1) # first method
+s & s1 # second method 
+print(f' first method : {s.intersection(s1)},\n second method : {s & s1}')
+```
+
+     first method : {2, 3, 4},
+     second method : {2, 3, 4}
+    
+
+
+```python
+s1.difference(s) # first method
+s1 - s  # second method 
+print(f' first method : {s.difference(s1)},\n second method : {s - s1}')
+```
+
+     first method : set(),
+     second method : set()
+    
+
+
+```python
+s.symmetric_difference(s1) # first method
+s ^ s1 # second method 
+print(f' first method : {s.symmetric_difference(s1)},\n second method : {s ^ s1 }')
+```
+
+     first method : {1, 5, 6, 7},
+     second method : {1, 5, 6, 7}
 
 
 ---
