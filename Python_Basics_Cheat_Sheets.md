@@ -37,6 +37,160 @@ A tuple is a sequence and the elements in tuple are ordered and immutable.
 `tup = (1,2,3)*2 = (1, 2, 3, 1, 2, 3) ; tup = (1,2,3), tup1 = (2,5), tup+tup1 = (1, 2, 3, 2, 5)`
 <br>
 
+### Tuple creation :
+
+
+```python
+tup = 1,2,3
+print(tup)
+```
+
+    (1, 2, 3)
+    
+
+
+```python
+tuple('ABC')
+```
+
+
+
+
+    ('A', 'B', 'C')
+
+
+
+### Sequence or iterator conversion :
+
+
+```python
+tup = 1,2,'A',True
+print(tup)
+```
+
+    (1, 2, 'A', True)
+    
+
+### Indexing and slicong :
+
+
+```python
+tup[0]
+```
+
+
+
+
+    1
+
+
+
+
+```python
+tup[1:3]
+```
+
+
+
+
+    (2, 'A')
+
+
+
+### Lehgth of the tuple :
+
+
+```python
+tup = (1,2,3,'a',True)
+len(tup)
+```
+
+
+
+
+    5
+
+
+
+### Unable to modify which object is stored in each slot:
+
+
+
+```python
+tup[1]=2
+```
+
+
+    ---------------------------------------------------------------------------
+
+    TypeError                                 Traceback (most recent call last)
+
+    <ipython-input-11-f2ca30833131> in <module>
+    ----> 1 tup[1]=2
+    
+
+    TypeError: 'tuple' object does not support item assignment
+
+
+### If the tuple contains LIST, which is mutable, the elements in the LIST can be modified:
+
+
+```python
+tup = (1,[1,2],3,'a',True)
+tup[1][0]=3
+tup 
+```
+
+
+
+
+    (1, [3, 2], 3, 'a', True)
+
+
+
+
+```python
+tup[1].append(5)
+tup
+```
+
+
+
+
+    (1, [3, 2, 5], 3, 'a', True)
+
+
+
+### Concatenate and Multiply a tuple :
+
+
+
+```python
+tup = (1,2,3)*2
+tup
+```
+
+
+
+
+    (1, 2, 3, 1, 2, 3)
+
+
+
+
+```python
+tup = (1,2,3)
+tup1 = (2,5)
+tup+tup1
+```
+
+
+
+
+    (1, 2, 3, 2, 5)
+
+
+
 ---
 
 - List
