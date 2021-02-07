@@ -1,3 +1,5 @@
+Jump to these sections : 
+[br]
 [Tuple](#tuple) ; [List](#list) ; [Dictionary](#dictionary) ; [Set](#set)
 
 - ## Tuple
