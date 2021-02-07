@@ -65,7 +65,7 @@ tup[1:3]
 
 
 
-### Lehgth of the tuple :
+### Length of the tuple :
 
 
 ```python
