@@ -1,41 +1,6 @@
 
-- Tuple
-<br> 
-A tuple is a sequence and the elements in tuple are ordered and immutable. 
-1. Tuple creation : 
-<br>
-`tup = 1,2,3`
-<br>
-`tup = 1,2,'A',True` # contain different types of element
-<br>
-2. Sequence or iterator conversion :
-<br>
-`tuple('ABC') = ('A', 'B', 'C')`
-<br>
-3. Indexing and slicong : 
-<br>
-`tup[0] = 1` ; `tup[1:2] = (2,3)`
-<br>
-4. Lehgth of the tuple : 
-<br>
-`tup = (1,2,3,'a',True) ; len(tup) = 5`
-<br>
-5. Unable to modify which object is stored in each slot: 
-<br>
-`tup[1]=2 , TypeError: 'tuple' object does not support item assignment `
-<br>
-6. If the tuple contains LIST, which is mutable, the elements in the LIST can be modified: 
-<br>
-`tup = (1,[1,2],3,'a',True) ; tup[1][0]=3` ; 
-<br>
-`tup = (1, [3, 2], 3, 'a', True)`
-<br>
-`tup[1].append(5)=>tup = (1, [3, 2, 5], 3, 'a', True)`
-<br>
-7. Concatenate and Multiply a tuple : 
-<br>
-`tup = (1,2,3)*2 = (1, 2, 3, 1, 2, 3) ; tup = (1,2,3), tup1 = (2,5), tup+tup1 = (1, 2, 3, 2, 5)`
-<br>
+- ## Tuple
+
 
 ### Tuple creation :
 
