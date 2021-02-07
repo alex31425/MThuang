@@ -1,4 +1,4 @@
-- [Tuple](#tuple) ; [List](#list) ; [Dictionary](#dictionary) ; [Set](#set)
+[Tuple](#tuple) ; [List](#list) ; [Dictionary](#dictionary) ; [Set](#set)
 
 - ## Tuple
 
