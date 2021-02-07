@@ -158,54 +158,8 @@ tup+tup1
 
 ---
 
-- List
-<br>
-In contrast with tuple, list contents can be modified in-place. A list can be created by using square brackets [] or using the list type function:
-1. Tuple creation : 
-<br>
-`l = [1,2,3] ; type(l) = list ;`
-2. Swutch between tuple and list:
-<br>
-`tup = ('a','b'), list(tup)=['a', 'b']` 
-<br>
-3. Check if a element in a list:
-<br>
-`1 in l => True`
-<br>
-4. Add, modify, and remove elements form the list
-<br>
-`l.append(7)=>[1, 2, 3, 7]` # add element
-<br>
-`l[3]= 8=>[1, 2, 3, 8]` # modify element
-<br>
-`l.insert(4,10)=>[1, 2, 3, 8, 10]` # insert an element at a specific location in the list
-<br>
-`l.pop(0)=>[2, 3, 8, 10]`   # removes and returns an element at a particular index
-<br>
-`l.remove(2)=>[3, 8, 10]` # remove elements by value
-<br>
-5. Combine & concatenate list
-<br>
-`l2 = [5,6,(8,9)] ; l.extend(l2) ; l=>[2, 3, 10, 5, 6, (8, 9)]` 
-<br>
-`l3 = [10,11] ; l+l3=>[2, 3, 10, 5, 6, (8, 9), 10, 11]`
-<br>
-`del l[5]=>[2, 3, 5, 6, 10]` # delete elements by their index
-<br>
-6. Sorting 
-<br>
-`l.reverse()=>[10, 6, 5, 3, 2]`
-<br>
-`l.sort()=>[2, 3, 5, 6, 10]`
-<br>
-`sorted(l)` # returns a new sorted list
-7. Slicing
-<br>
-[Start Index:End Index] start index is included, the stop index is not included
-<br>
-`l[1:3]=>[3, 5] ; l[:-1]=>[2, 3, 5, 6] ; l[-3:]=>[5, 6, 10]`
-<br>
-## List
+- ## List
+
 
 ### In contrast with tuple, list contents can be modified in-place. A list can be created by using square brackets [ ] or using the list type function:
 
