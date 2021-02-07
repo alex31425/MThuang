@@ -7,7 +7,7 @@
 
 ```python
 tup = 1,2,3
-print(tup)
+tup
 ```
 
     (1, 2, 3)
@@ -30,7 +30,7 @@ tuple('ABC')
 
 ```python
 tup = 1,2,'A',True
-print(tup)
+tup
 ```
 
     (1, 2, 'A', True)
