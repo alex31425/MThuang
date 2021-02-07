@@ -181,7 +181,7 @@ type(l)
 
 
 
-### Swutch between tuple and list:
+### Swtch between tuple and list:
 
 
 ```python
