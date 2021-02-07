@@ -1,7 +1,7 @@
-## [Tuple](#tuple) <a id='tuple'></a> 
-## [List](#list) <a id='list'></a> ; 
-## [Dictionary](#dictionary) <a id='dictionary'></a> ; 
-## [Set](#Sset) <a id='set'></a> 
+## [Tuple](#Tuple) <a id='tuple'></a> 
+## [List](#List) <a id='list'></a> ; 
+## [Dictionary](#Dictionary) <a id='dictionary'></a> ; 
+## [Set](#Set) <a id='set'></a> 
 
 - ## Tuple
 
