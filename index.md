@@ -63,13 +63,15 @@ What is the exploratory data analysis? According to the [Wikipedia](https://en.w
 - [Features Engineering: behind the scenes of ML algorithms](https://medium.com/datadriveninvestor/features-engineering-behind-the-scenes-of-ml-algorithms-e356e38073d)
 - [Kaggle House Prices Prediction with Linear Regression and Gradient Boosting](https://medium.com/analytics-vidhya/kaggle-house-prices-prediction-with-linear-regression-and-gradient-boosting-c5694d9c6df4)
 - [Feature Selection in Machine Learning](https://medium.com/towards-artificial-intelligence/feature-selection-in-machine-learning-3b2902852933)
+- [3 Top Feature Selection Techniques in Machine Learning](https://medium.com/swlh/feature-selection-methods-in-machine-learning-67d71a6bce21)
+- [Feature Engineering — Recursive Feature Elimination With Cross-Validation](https://towardsdatascience.com/feature-engineering-recursive-feature-elimination-with-cross-validation-745d594df730)
+- [Backward Elimination for Feature Selection in Machine Learning](https://towardsdatascience.com/backward-elimination-for-feature-selection-in-machine-learning-c6a3a8f8cef4)
 ---
 ## Evaluation Metrics Machine Learning
 - [Confusion Matrix](https://towardsdatascience.com/understanding-the-confusion-matrix-and-its-business-applications-c4e8aaf37f42)
 - [AUC - ROC Curve](https://towardsdatascience.com/understanding-auc-roc-curve-68b2303cc9c5)
 - [7 Things You Should Know about ROC AUC](https://medium.com/hiredscore-engineering/7-things-you-should-know-about-roc-auc-b4389ea2b2e3)
-
-
+- [Evaluation Metrics — Machine Learning](https://medium.com/data-stash/evaluation-metrics-machine-learning-b4de1ff1c0f9)
 
 ---
 ## Machine Learning Models
