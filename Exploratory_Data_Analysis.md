@@ -1,6 +1,13 @@
+- WHAT?
+<br>
 What is the exploratory data analysis? According to the [Wikipedia](https://en.wikipedia.org/wiki/Exploratory_data_analysis), Exploratory Data Analysis (EDA) is an approach to analyzing data sets to summarize their main characteristics, often with visual methods. A statistical model can be used or not, but primarily EDA is for seeing what the data can tell us beyond the formal modeling or hypothesis testing task. 
+- WHY?
+EDA helps identify errors (missing values), understand patterns within the data, detect outliers or anomalous events, and find interesting relations among the variables. Before the machine models are built, EDA help determine which models could be used, patterns of each variables, see the descriptive statistics, and define the problems that can be answered from the dataset. 
+<br>
+- HOW?
+The EDA can be performed by visualizating the dataset (scatter plot, histogram, correlation matrix and more) and by showing summary statistics. In this article, I will explore this [dataset](https://archive.ics.uci.edu/ml/datasets/Wine+Quality) by seeing if there is missing values, outliers and summary statistics for each variable.
+<br>
 
-[Data source](https://archive.ics.uci.edu/ml/datasets/Wine+Quality)
 
 
 ```python
