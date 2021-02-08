@@ -54,6 +54,14 @@ What is the exploratory data analysis? According to the [Wikipedia](https://en.w
 - [How to Make Your Machine Learning Models Robust to Outliers](https://heartbeat.fritz.ai/how-to-make-your-machine-learning-models-robust-to-outliers-44d404067d07)
 
 ---
+- [Missing values](https://alex31425.github.io/MTHuang/mising_values)
+<br>
+<figure>
+    <img src="images/missing_value.jepg?raw=true"/>
+    <figcaption><a href="https://medium.com/swlh/handling-missing-values-in-spreadsheets-using-python-38eef852cd58">Image source</a></figcaption>
+</figure>
+<br>
+---
 
 ## Feature Selection & Engineering 
 - [The Art of Finding the Best Features for Machine Learning](https://towardsdatascience.com/the-art-of-finding-the-best-features-for-machine-learning-a9074e2ca60d)
