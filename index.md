@@ -57,7 +57,7 @@ What is the exploratory data analysis? According to the [Wikipedia](https://en.w
 - [Missing values](https://alex31425.github.io/MTHuang/mising_values)
 <br>
 <figure>
-    <img src="images/missing_value.jepg?raw=true"/>
+    <img src="images/missing_value.jpeg?raw=true"/>
     <figcaption><a href="https://medium.com/swlh/handling-missing-values-in-spreadsheets-using-python-38eef852cd58">Image source</a></figcaption>
 </figure>
 <br>
