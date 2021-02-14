@@ -348,8 +348,6 @@ print(linear_regression_model_fitted.summary(), '\n')
     ```python
     # Determine if the predictor continuous or boolean &
     # create plots for each variable type
-
-
     predictor_type = []
     t_score = []
 
@@ -357,116 +355,115 @@ print(linear_regression_model_fitted.summary(), '\n')
     cat_array = np.array([])
     for idx, column in enumerate(X.T):
 
-    feature_name = f[idx]
-    predictor = statsmodels.api.add_constant(column)
+        feature_name = f[idx]
+        predictor = statsmodels.api.add_constant(column)
 
-    # Get the stats & plot
+        # Get the stats & plot
 
-    if np.unique(X.T[idx]).size < 5:
-        v_type = "boolean"
-        cat_array = np.append(cat_array, column)
-        print(f[idx], "is boolean" )
-        if response_type == "continuous":
+        if np.unique(X.T[idx]).size < 5:
+            v_type = "boolean"
+            cat_array = np.append(cat_array, column)
+            print(f[idx], "is boolean" )
+            if response_type == "continuous":
 
-            logistic_regression_model = statsmodels.api.GLM(y, predictor)
-            logistic_regression_model_fitted = (
-                logistic_regression_model.fit()
-            )  # noqa
-            print(f"Variable: {feature_name}")
-            print(logistic_regression_model_fitted.summary(), '\n')
-            t_value = round(logistic_regression_model_fitted.tvalues[1], 6)
-            p_value = "{:.6e}".format(
-                logistic_regression_model_fitted.pvalues[1]
-            )  # noqa
+                logistic_regression_model = statsmodels.api.GLM(y, predictor)
+                logistic_regression_model_fitted = (
+                    logistic_regression_model.fit()
+                )  # noqa
+                print(f"Variable: {feature_name}")
+                print(logistic_regression_model_fitted.summary(), '\n')
+                t_value = round(logistic_regression_model_fitted.tvalues[1], 6)
+                p_value = "{:.6e}".format(
+                    logistic_regression_model_fitted.pvalues[1]
+                )  # noqa
 
-            # Categorical Predictor by Continuous Response
+                # Categorical Predictor by Continuous Response
 
-            fig = px.histogram(x=column, y=y, histfunc="count")
-            fig.update_layout(
-                title=f"Variable: {feature_name}: (t-value={t_value}) (p-value={p_value})",  # noqa
-                xaxis_title=f"Variable: {feature_name}",
-                yaxis_title="Response",
-            )
+                fig = px.histogram(x=column, y=y, histfunc="count")
+                fig.update_layout(
+                    title=f"Variable: {feature_name}: (t-value={t_value}) (p-value={p_value})",  # noqa
+                    xaxis_title=f"Variable: {feature_name}",
+                    yaxis_title="Response",
+                )
 
-            fig.show()
- 
+                fig.show()
+
+
+            else:
+
+                logistic_regression_model = statsmodels.api.GLM(y, predictor)
+                logistic_regression_model_fitted = (
+                    logistic_regression_model.fit()
+                )  # noqa
+                print(f"Variable: {feature_name}")
+                print(logistic_regression_model_fitted.summary(), '\n')
+                t_value = round(logistic_regression_model_fitted.tvalues[1], 6)
+                p_value = "{:.6e}".format(
+                    logistic_regression_model_fitted.pvalues[1]
+                )  # noqa
+
+                # Categorical Predictor by Continuous Response
+
+                fig = px.scatter(x=column, y=y)
+                fig.update_layout(
+                    title=f"Variable: {feature_name}: (t-value={t_value}) (p-value={p_value})",  # noqa
+                    xaxis_title=f"Variable: {feature_name}",
+                    yaxis_title="y",
+                )
+
+                fig.show()
+
 
         else:
+            print(f[idx], "is continuous")
+            v_type = "continuous"
+            con_array = np.append(cat_array, column)  # noqa
+            if response_type == "continuous":
 
-            logistic_regression_model = statsmodels.api.GLM(y, predictor)
-            logistic_regression_model_fitted = (
-                logistic_regression_model.fit()
-            )  # noqa
-            print(f"Variable: {feature_name}")
-            print(logistic_regression_model_fitted.summary(), '\n')
-            t_value = round(logistic_regression_model_fitted.tvalues[1], 6)
-            p_value = "{:.6e}".format(
-                logistic_regression_model_fitted.pvalues[1]
-            )  # noqa
+                linear_regression_model = statsmodels.api.OLS(y, predictor)
+                linear_regression_model_fitted = linear_regression_model.fit()
+                print(f"Variable: {feature_name}")
+                print(linear_regression_model_fitted.summary(), '\n')
+                t_value = round(linear_regression_model_fitted.tvalues[1], 6)
+                p_value = "{:.6e}".format(
+                    linear_regression_model_fitted.pvalues[1]
+                )  # noqa
 
-            # Categorical Predictor by Continuous Response
+                # Continuous Predictor by Continuous Response
+                # Plot the figure
+                fig = px.scatter(x=column, y=y)
+                fig.update_layout(
+                    title=f"Variable: {feature_name}: (t-value={t_value}) (p-value={p_value})",  # noqa
+                    xaxis_title=f"Variable: {feature_name}",
+                    yaxis_title="y",
+                )
 
-            fig = px.scatter(x=column, y=y)
-            fig.update_layout(
-                title=f"Variable: {feature_name}: (t-value={t_value}) (p-value={p_value})",  # noqa
-                xaxis_title=f"Variable: {feature_name}",
-                yaxis_title="y",
-            )
+                fig.show()
 
-            fig.show()
-  
-            
-    else:
-        print(f[idx], "is continuous")
-        v_type = "continuous"
-        con_array = np.append(cat_array, column)  # noqa
-        if response_type == "continuous":
 
-            linear_regression_model = statsmodels.api.OLS(y, predictor)
-            linear_regression_model_fitted = linear_regression_model.fit()
-            print(f"Variable: {feature_name}")
-            print(linear_regression_model_fitted.summary(), '\n')
-            t_value = round(linear_regression_model_fitted.tvalues[1], 6)
-            p_value = "{:.6e}".format(
-                linear_regression_model_fitted.pvalues[1]
-            )  # noqa
+            else:
+                linear_regression_model = statsmodels.api.OLS(y, predictor)
+                linear_regression_model_fitted = linear_regression_model.fit()
+                print(f"Variable: {feature_name}")
+                print(linear_regression_model_fitted.summary(), '\n')
+                t_value = round(linear_regression_model_fitted.tvalues[1], 6)
+                p_value = "{:.6e}".format(
+                    linear_regression_model_fitted.pvalues[1]
+                )  # noqa
+                # Continuous Predictor by Categorical Response
+                # Plot the figure
+                fig = px.histogram(x=column, y=y)
+                fig.update_layout(
+                    title=f"Variable: {feature_name}: (t-value={t_value}) (p-value={p_value})",  # noqa
+                    xaxis_title=f"Variable: {feature_name}",
+                    yaxis_title="y",
+                )
 
-            # Continuous Predictor by Continuous Response
-            # Plot the figure
-            fig = px.scatter(x=column, y=y)
-            fig.update_layout(
-                title=f"Variable: {feature_name}: (t-value={t_value}) (p-value={p_value})",  # noqa
-                xaxis_title=f"Variable: {feature_name}",
-                yaxis_title="y",
-            )
+                fig.show()
 
-            fig.show()
-
-            
-        else:
-            linear_regression_model = statsmodels.api.OLS(y, predictor)
-            linear_regression_model_fitted = linear_regression_model.fit()
-            print(f"Variable: {feature_name}")
-            print(linear_regression_model_fitted.summary(), '\n')
-            t_value = round(linear_regression_model_fitted.tvalues[1], 6)
-            p_value = "{:.6e}".format(
-                linear_regression_model_fitted.pvalues[1]
-            )  # noqa
-            # Continuous Predictor by Categorical Response
-            # Plot the figure
-            fig = px.histogram(x=column, y=y)
-            fig.update_layout(
-                title=f"Variable: {feature_name}: (t-value={t_value}) (p-value={p_value})",  # noqa
-                xaxis_title=f"Variable: {feature_name}",
-                yaxis_title="y",
-            )
-
-            fig.show()
-    
-    # create a list of each variable type
-    predictor_type.append(v_type)
-    t_score.append(t_value)
-
+        # create a list of each variable type
+        predictor_type.append(v_type)
+        t_score.append(t_value)
 
     ```
 
