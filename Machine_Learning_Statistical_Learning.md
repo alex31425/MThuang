@@ -1,0 +1,4 @@
+- [Statistics vs. Machine Learning, fight!](http://brenocon.com/blog/2008/12/statistics-vs-machine-learning-fight/)
+- [The Close Relationship Between Applied Statistics and Machine Learning](https://machinelearningmastery.com/relationship-between-applied-statistics-and-machine-learning/)
+- [The Actual Difference Between Statistics and Machine Learning](https://towardsdatascience.com/the-actual-difference-between-statistics-and-machine-learning-64b49f07ea3)
+- [Machine Learning vs Statistics vs Statistical Learning in One Picture](https://www.datasciencecentral.com/profiles/blogs/machine-learning-vs-statistics-in-one-picture)
