@@ -342,16 +342,20 @@ print(linear_regression_model_fitted.summary(), '\n')
     strong multicollinearity or other numerical problems. 
     
 
+<details>
+    <summary>Click to see the code</summary>
+    
+    ```python
+    # Determine if the predictor continuous or boolean &
+    # create plots for each variable type
 
-```python
-# Determine if the predictor continuous or boolean &
-# create plots for each variable type
-predictor_type = []
-t_score = []
 
-con_array = np.array([])
-cat_array = np.array([])
-for idx, column in enumerate(X.T):
+    predictor_type = []
+    t_score = []
+
+    con_array = np.array([])
+    cat_array = np.array([])
+    for idx, column in enumerate(X.T):
 
     feature_name = f[idx]
     predictor = statsmodels.api.add_constant(column)
@@ -464,7 +468,11 @@ for idx, column in enumerate(X.T):
     t_score.append(t_value)
 
 
-```
+    ```
+
+</details>
+
+
 
     fixed acidity is continuous
     Variable: fixed acidity
@@ -494,7 +502,7 @@ for idx, column in enumerate(X.T):
     Notes:
     [1] Standard Errors assume that the covariance matrix of the errors is correctly specified. 
     
-    
+
     
 ```python
 data.corr()
