@@ -501,12 +501,13 @@ for idx, column in enumerate(X.T):
     [1] Standard Errors assume that the covariance matrix of the errors is correctly specified. 
     
 
+
 <details>
     <summary>Click to see the code</summary>    
     
-    ~~~ python
+    ```python
     data.corr()
-    ~~~
+    ```
 </details>
 
 
