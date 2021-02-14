@@ -504,9 +504,9 @@ for idx, column in enumerate(X.T):
 <details>
     <summary>Click to see the code</summary>    
     
-    ```python
+    ~~~ python
     data.corr()
-    ```
+    ~~~
 </details>
 
 
