@@ -8,37 +8,22 @@ EDA helps identify errors (missing values), understand patterns within the data,
 - HOW?   
 The EDA can be performed by visualizating the dataset (scatter plot, histogram, correlation matrix and more) and by showing summary statistics. In this article, I will explore this [dataset](https://archive.ics.uci.edu/ml/datasets/Wine+Quality) by seeing if there is missing values, outliers and summary statistics for each variable.
 
-
-
+Here are some packages that will be using for EDA. Numpy and Pandas for data processing ; Ploty, Matplotlib, and Seaborn for data visualization ; statsmodels for conducting statistical tests, and statistical data exploration.
 ```python
-data.isnull().sum()
+import numpy as np
+import pandas as pd
+import plotly.graph_objects as go
+from plotly import express as px
+import matplotlib.pyplot as plt
+import seaborn as sns
+import statsmodels.api
 ```
 
-
-
-
-    fixed acidity           0
-    volatile acidity        0
-    citric acid             0
-    residual sugar          0
-    chlorides               0
-    free sulfur dioxide     0
-    total sulfur dioxide    0
-    density                 0
-    pH                      0
-    sulphates               0
-    alcohol                 0
-    quality                 0
-    dtype: int64
-
-
-
+Next step is to load the data. The raw data can be downloaded through [UC Irvine Machine Learning Repository](https://archive.ics.uci.edu/ml/index.php). I downloaded and saved it in my Github. By using [pd.read_csv](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_csv.html), we can read the csv format dataset. Please note that I used 'sep' parameter since each variable is separated by ';'. The default for 'sep' parameter is ',' so if the variables is separated by ';', this parameter can be ignored. After successfully loaded the dataset, [pandas.DataFrame.head](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.head.html) function can return the first n rows of the dataset.
 ```python
 data = pd.read_csv('https://raw.githubusercontent.com/alex31425/MTHuang/master/data/winequality-white.csv',sep = ';')
 data.head()
 ```
-
-
 
 
 <div>
@@ -141,6 +126,8 @@ data.head()
 </table>
 </div>
 
+Here I used [pandas.DataFrame.dtypes](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.dtypes.html) to check the data type for each column, [pandas.DataFrame.shape](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.shape.html) to see how many rows and cloumns of this dataset, and [pandas.isnull](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.isnull.html) to see if there is any column has missing values. In addition, we can also use [pandas.DataFrame.count](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.count.html) to count non-NA cells for each column or row. Combined with pandas.DataFrame.shape, we can count how many missing values for each column.  
+
 ```python
 data.shape
 ```
@@ -149,6 +136,27 @@ data.shape
 
 
     (4898, 12)
+    
+    
+
+```python
+print("The dataset contains following number of records for each of the columns : \n" +str(data.count()))
+```
+
+    The dataset contains following number of records for each of the columns : 
+    fixed acidity           4898
+    volatile acidity        4898
+    citric acid             4898
+    residual sugar          4898
+    chlorides               4898
+    free sulfur dioxide     4898
+    total sulfur dioxide    4898
+    density                 4898
+    pH                      4898
+    sulphates               4898
+    alcohol                 4898
+    quality                 4898
+    dtype: int64
     
     
 ```python
@@ -171,42 +179,6 @@ print("The dataset contains columns of the following data types : \n" +str(data.
     dtype: object    
     
     
-    
-    
-  ```python
-
-for column in data:
-    fig = px.box(data[column],x = column)
-    figv = px.violin(data, x = column, box=True, # draw box plot inside the violin
-                points='all', # can be 'outliers', or False
-               )
-    figv.show()
-    fig.show()
-
-```  
-
-```python
-print("The dataset contains following number of records for each of the columns : \n" +str(data.count()))
-```
-
-    The dataset contains following number of records for each of the columns : 
-    fixed acidity           4898
-    volatile acidity        4898
-    citric acid             4898
-    residual sugar          4898
-    chlorides               4898
-    free sulfur dioxide     4898
-    total sulfur dioxide    4898
-    density                 4898
-    pH                      4898
-    sulphates               4898
-    alcohol                 4898
-    quality                 4898
-    dtype: int64
-    
-    
-    
-    
 ```python
 data.isnull().sum()
 ```
@@ -227,6 +199,203 @@ data.isnull().sum()
     alcohol                 0
     quality                 0
     dtype: int64
+
+Pandas has a more powerful function for checking missing values, columns, and data type which is [pandas.DataFrame.info](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.info.html#pandas-dataframe-info). 
+```python
+data.info()
+```
+
+    <class 'pandas.core.frame.DataFrame'>
+    RangeIndex: 4898 entries, 0 to 4897
+    Data columns (total 12 columns):
+     #   Column                Non-Null Count  Dtype  
+    ---  ------                --------------  -----  
+     0   fixed acidity         4898 non-null   float64
+     1   volatile acidity      4898 non-null   float64
+     2   citric acid           4898 non-null   float64
+     3   residual sugar        4898 non-null   float64
+     4   chlorides             4898 non-null   float64
+     5   free sulfur dioxide   4898 non-null   float64
+     6   total sulfur dioxide  4898 non-null   float64
+     7   density               4898 non-null   float64
+     8   pH                    4898 non-null   float64
+     9   sulphates             4898 non-null   float64
+     10  alcohol               4898 non-null   float64
+     11  quality               4898 non-null   int64  
+    dtypes: float64(11), int64(1)
+    memory usage: 459.3 KB
+    
+[pandas.DataFrame.describe](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.describe.html) will generate descriptive statistics for this dataset. 
+
+```python
+data.describe()
+```
+
+
+
+
+
+
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>fixed acidity</th>
+      <th>volatile acidity</th>
+      <th>citric acid</th>
+      <th>residual sugar</th>
+      <th>chlorides</th>
+      <th>free sulfur dioxide</th>
+      <th>total sulfur dioxide</th>
+      <th>density</th>
+      <th>pH</th>
+      <th>sulphates</th>
+      <th>alcohol</th>
+      <th>quality</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>count</th>
+      <td>4898.000000</td>
+      <td>4898.000000</td>
+      <td>4898.000000</td>
+      <td>4898.000000</td>
+      <td>4898.000000</td>
+      <td>4898.000000</td>
+      <td>4898.000000</td>
+      <td>4898.000000</td>
+      <td>4898.000000</td>
+      <td>4898.000000</td>
+      <td>4898.000000</td>
+      <td>4898.000000</td>
+    </tr>
+    <tr>
+      <th>mean</th>
+      <td>6.854788</td>
+      <td>0.278241</td>
+      <td>0.334192</td>
+      <td>6.391415</td>
+      <td>0.045772</td>
+      <td>35.308085</td>
+      <td>138.360657</td>
+      <td>0.994027</td>
+      <td>3.188267</td>
+      <td>0.489847</td>
+      <td>10.514267</td>
+      <td>5.877909</td>
+    </tr>
+    <tr>
+      <th>std</th>
+      <td>0.843868</td>
+      <td>0.100795</td>
+      <td>0.121020</td>
+      <td>5.072058</td>
+      <td>0.021848</td>
+      <td>17.007137</td>
+      <td>42.498065</td>
+      <td>0.002991</td>
+      <td>0.151001</td>
+      <td>0.114126</td>
+      <td>1.230621</td>
+      <td>0.885639</td>
+    </tr>
+    <tr>
+      <th>min</th>
+      <td>3.800000</td>
+      <td>0.080000</td>
+      <td>0.000000</td>
+      <td>0.600000</td>
+      <td>0.009000</td>
+      <td>2.000000</td>
+      <td>9.000000</td>
+      <td>0.987110</td>
+      <td>2.720000</td>
+      <td>0.220000</td>
+      <td>8.000000</td>
+      <td>3.000000</td>
+    </tr>
+    <tr>
+      <th>25%</th>
+      <td>6.300000</td>
+      <td>0.210000</td>
+      <td>0.270000</td>
+      <td>1.700000</td>
+      <td>0.036000</td>
+      <td>23.000000</td>
+      <td>108.000000</td>
+      <td>0.991723</td>
+      <td>3.090000</td>
+      <td>0.410000</td>
+      <td>9.500000</td>
+      <td>5.000000</td>
+    </tr>
+    <tr>
+      <th>50%</th>
+      <td>6.800000</td>
+      <td>0.260000</td>
+      <td>0.320000</td>
+      <td>5.200000</td>
+      <td>0.043000</td>
+      <td>34.000000</td>
+      <td>134.000000</td>
+      <td>0.993740</td>
+      <td>3.180000</td>
+      <td>0.470000</td>
+      <td>10.400000</td>
+      <td>6.000000</td>
+    </tr>
+    <tr>
+      <th>75%</th>
+      <td>7.300000</td>
+      <td>0.320000</td>
+      <td>0.390000</td>
+      <td>9.900000</td>
+      <td>0.050000</td>
+      <td>46.000000</td>
+      <td>167.000000</td>
+      <td>0.996100</td>
+      <td>3.280000</td>
+      <td>0.550000</td>
+      <td>11.400000</td>
+      <td>6.000000</td>
+    </tr>
+    <tr>
+      <th>max</th>
+      <td>14.200000</td>
+      <td>1.100000</td>
+      <td>1.660000</td>
+      <td>65.800000</td>
+      <td>0.346000</td>
+      <td>289.000000</td>
+      <td>440.000000</td>
+      <td>1.038980</td>
+      <td>3.820000</td>
+      <td>1.080000</td>
+      <td>14.200000</td>
+      <td>9.000000</td>
+    </tr>
+  </tbody>
+</table>
+    
+
+    
+    
+  ```python
+
+for column in data:
+    fig = px.box(data[column],x = column)
+    figv = px.violin(data, x = column, box=True, # draw box plot inside the violin
+                points='all', # can be 'outliers', or False
+               )
+    figv.show()
+    fig.show()
+
+```  
+
+    
+    
+    
 
 
 ```python
@@ -709,7 +878,7 @@ data.corr()
     </tr>
   </tbody>
 </table>
-</div>
+
 
 
 ```python
