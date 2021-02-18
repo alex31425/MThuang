@@ -411,7 +411,7 @@ for c in data.columns[:-2]:
     plt.ylabel('ylabel')
 ```
 
-
+<img src="images/EDAplot-box.png?raw=true"/>
 
 
 ```python
