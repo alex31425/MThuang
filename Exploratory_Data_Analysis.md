@@ -412,7 +412,7 @@ for c in data.columns[:-2]:
 ```
 
 <img src="images/EDAplot-boxviolin.png?raw=true"/>
-
+[![EDAplot-boxviolin](images/EDAplot-boxviolin.png)](https://raw.githubusercontent.com/alex31425/MTHuang/master/images/EDAplot-boxviolin.png)
 
 ```python
 print( "Each category within the quality column has the following count : ")
