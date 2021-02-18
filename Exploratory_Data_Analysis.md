@@ -893,7 +893,7 @@ fig_corr = go.Figure(data=[trace_con])
 fig_corr.show()
 ```
 
-
+<img src="images/EDAplot-corrleation.png?raw=true"/>
 
  
 - [Exploratory Data Analysis](https://towardsdatascience.com/hitchhikers-guide-to-exploratory-data-analysis-6e8d896d3f7e)
