@@ -534,6 +534,7 @@ print(linear_regression_model_fitted.summary(), '\n')
     strong multicollinearity or other numerical problems. 
     
     
+Below section is to plot and get individual variable data ditribution[(Skewness)](https://en.wikipedia.org/wiki/Skewness) and t-value in order to perform feature selection later. Futhermore, it will categorize each variable to check if it is continuous or categorical variable. In this dataset, there is no categorical variable. All variables are continuous.
 
     
 ```python
@@ -691,8 +692,63 @@ for idx, column in enumerate(X.T):
     Notes:
     [1] Standard Errors assume that the covariance matrix of the errors is correctly specified. 
     
+<img src="images/EDAplot-indplot.png?raw=true"/>
 
+Below code is to split the dataset into continuous or categorical variable one based on the result of above code. 
 
+```python
+# Split dataset predictors between categoricals and continuous
+pd_PT = pd.DataFrame(predictor_type, columns=["type"])
+pd_PT["name"] =  pd.Series(f)
+
+df_PT_c = (
+    pd_PT[pd_PT["type"] == "continuous"].drop(["type"], axis=1)
+).copy()  
+df_PT_b = (pd_PT[pd_PT["type"] == "boolean"].drop(["type"], axis=1)).copy()
+pd_PT = pd_PT.drop(["type"], axis=1)
+con_list = df_PT_c["name"].to_list()
+cat_list = df_PT_b["name"].to_list()
+f_list = pd_PT["name"].to_list()
+corr_plot = {}
+df_con_cat = (pd.DataFrame(X)).T
+df_con_cat["type"] = predictor_type
+df_con_cat["Feature"] = pd.Series(f)
+
+df_con = df_con_cat[df_con_cat["type"] == "continuous"]
+df_cat = df_con_cat[df_con_cat["type"] == "boolean"]
+df_con_d = df_con.drop(["type"], axis=1).T
+df_cat_d = df_cat.drop(["type"], axis=1).T
+df_con_cat_d = df_con_cat.drop(["type"], axis=1).T
+
+df_con_cat_d.columns = df_con_cat_d.loc["Feature"]
+df_con_cat_d = df_con_cat_d.drop(["Feature"])
+df_con_d.columns = df_con_d.loc["Feature"]
+df_cat_d.columns = df_cat_d.loc["Feature"]
+df_con_d = df_con_d.drop(["Feature"])
+df_cat_d = df_cat_d.drop(["Feature"])
+df_con_d[
+    df_con_d.select_dtypes(["object"]).columns
+] = df_con_d.select_dtypes(  
+    ["object"]
+).apply(
+    lambda x: x.astype("float")
+)
+
+df_cat_d[
+    df_cat_d.select_dtypes(["object"]).columns
+] = df_cat_d.select_dtypes(  
+    ["object"]
+).apply(
+    lambda x: x.astype("float")
+)
+
+df_con_cat_d[
+    df_con_cat_d.select_dtypes(["object"]).columns
+] = df_con_cat_d.select_dtypes(["object"]).apply(
+    lambda x: x.astype("float")
+)  
+```
+Here are the correlation matrix and plot for all variables. One of the purpose of this information is to deermine if collinearity exits which means it is to check if some of the independent variables are highly correlated.
 
 ```python
 data.corr()
@@ -903,7 +959,7 @@ data.corr()
   </tbody>
 </table>
 
-
+Finally, I checked the realtionship betwen each variable and the response variable. If the correlation coefficient is close to 1 or -1, we could tell that that variable is association to the response variable and drop the variables that have low correlation coefficient.
 
 ```python
 trace = go.Heatmap(
@@ -921,7 +977,7 @@ fig_corr.show()
 
 [![EDAplot-corrleationPolty](images/EDAplot-corrleationPolty.png)](https://alex31425.github.io/MTHuang/images/EDAplot-corrleationPolty.png){:target="_blank"} 
 
- 
+Reference :
 - [Exploratory Data Analysis](https://towardsdatascience.com/hitchhikers-guide-to-exploratory-data-analysis-6e8d896d3f7e)
 - [Exploratory Data Analysis(Part- 2)](https://towardsdatascience.com/hitchhikers-guide-to-exploratory-data-analysis-part-2-36ab72201e1d)
 - [Identify Outliers](https://medium.com/swlh/identify-outliers-with-pandas-statsmodels-and-seaborn-2766103bf67c)
@@ -929,4 +985,4 @@ fig_corr.show()
 - [Ames Housing Price Prediction — Complete ML Project with Python](https://medium.com/@kamskijohnm2m/ames-housing-price-prediction-complete-ml-project-with-python-2af595a749d6)
 - [Exploratory data analysis in Python](https://towardsdatascience.com/exploratory-data-analysis-in-python-c9a77dfa39ce)
 - [Exploratory Data Analysis, Feature Engineering, and Modelling using Supermarket Sales Data](https://towardsdatascience.com/exploratory-data-analysis-feature-engineering-and-modelling-using-supermarket-sales-data-part-1-228140f89298)
-- []()
+
