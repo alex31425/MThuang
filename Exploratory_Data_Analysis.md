@@ -391,7 +391,7 @@ for column in data:
     fig.show()
 
 ```  
-<img src="images/EDAplot-boxviolin.png?raw=true"/>
+
     
     
     
