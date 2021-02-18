@@ -392,7 +392,7 @@ for column in data:
 
 ```  
 
-<img src="images/EDAplot-boxviolin.png?raw=true"/>  
+[![EDAplot-boxviolin](images/EDAplot-boxviolin.png)](https://raw.githubusercontent.com/alex31425/MTHuang/master/images/EDAplot-boxviolin.png){:target="_blank"} 
     
 
 
@@ -411,8 +411,8 @@ for c in data.columns[:-2]:
     plt.ylabel('ylabel')
 ```
 
-<img src="images/EDAplot-boxviolin.png?raw=true"/>
-[![EDAplot-boxviolin](images/EDAplot-boxviolin.png)](https://raw.githubusercontent.com/alex31425/MTHuang/master/images/EDAplot-boxviolin.png){:target="_blank"}
+<img src="images/EDAplot-box.png?raw=true"/>
+
 
 ```python
 print( "Each category within the quality column has the following count : ")
