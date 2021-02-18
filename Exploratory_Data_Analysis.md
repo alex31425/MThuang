@@ -392,8 +392,7 @@ for column in data:
 
 ```  
 
-    
-    
+<img src="images/EDAplot-boxviolin.png?raw=true"/>  
     
 
 
