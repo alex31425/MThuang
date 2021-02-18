@@ -893,7 +893,7 @@ fig_corr.show()
 
 
 
-<img src="images/EDAplot-corrleationPolty.png?raw=true"/>
+[![EDAplot-corrleationPolty](images/EDAplot-corrleationPolty.png)](https://alex31425.github.io/MTHuang/images/EDAplot-corrleationPolty.png){:target="_blank"} 
 
  
 - [Exploratory Data Analysis](https://towardsdatascience.com/hitchhikers-guide-to-exploratory-data-analysis-6e8d896d3f7e)
