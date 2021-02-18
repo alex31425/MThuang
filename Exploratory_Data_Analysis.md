@@ -377,7 +377,7 @@ data.describe()
   </tbody>
 </table>
     
-
+Let's visualize the dataset. First let's plot the [violin plot](https://en.wikipedia.org/wiki/Violin_plot) and [box plot](https://en.wikipedia.org/wiki/Box_plot). By looking into these two plots we can see the the shape of the distribution, its central value, and its variability by the five-number summary of a set of data. The five-number summary is the first quartile, median, third quartile, upper and lower fences.If the dots above or below the upper and lower fences, we consider these data points are outliers. We can tell that every variable has outliers. I will have another post to see how to handle outliers. 
     
     
   ```python
@@ -395,25 +395,34 @@ for column in data:
 [![EDAplot-boxviolin](images/EDAplot-boxviolin.png)](https://raw.githubusercontent.com/alex31425/MTHuang/master/images/EDAplot-boxviolin.png){:target="_blank"} 
     
 
-
+It is interesting that we can visualize missing values by using a heatmap. Therefore, if there are missing values in the dataset, the heatmap will have non-black spot in it.
 ```python
 sns.heatmap(data.isnull(), cbar=False)
 ```
 
 <img src="images/EDAplot-missingvalueheatmap.png?raw=true"/>
 
+Next, I examined whether the response is continuous or categorical. The criteria is if the response variable is strings or the unqiue size is fewer than 10, I consider the response variable as categorical variable. 
+
+
 ```python
-for c in data.columns[:-2]:
-    data.boxplot(column=c, by=['quality'],figsize = (10,5) )
-    plt.title(c)
-    plt.suptitle("")
-    plt.xlabel('xlabel')
-    plt.ylabel('ylabel')
+# Determine if response is continuous or boolean
+
+if y.dtype is str or bool is True:
+    response_type = "boolean"
+    print("---Response is boolean---")
+elif np.unique(y).size < 10:
+    response_type = "boolean"
+    print("---Response is boolean---")
+else:
+    response_type = "continuous"
+    print("---Response is continuous---")
 ```
 
-<img src="images/EDAplot-box.png?raw=true"/>
+    ---Response is boolean---  
 
-
+Since the response variable is categorical, we can use bar chart to count how many values in each category(3-9). This is an [imbalanced dataset](https://machinelearningmastery.com/tactics-to-combat-imbalanced-classes-in-your-machine-learning-dataset/) since over 90% of the values fall into category 5,6,and 7. 
+    
 ```python
 print( "Each category within the quality column has the following count : ")
 print(data.groupby(['quality']).size())
@@ -434,7 +443,23 @@ quality_plot.set_ylabel("Frequency")
     9       5
     dtype: int64
     
-<img src="images/EDAplot-qualityhist.png?raw=true"/>      
+<img src="images/EDAplot-qualityhist.png?raw=true"/>  
+
+In additionally, we can use box chart to see the data distribution of each variable in each cotegory.  
+
+```python
+for c in data.columns[:-2]:
+    data.boxplot(column=c, by=['quality'],figsize = (10,5) )
+    plt.title(c)
+    plt.suptitle("")
+    plt.xlabel('xlabel')
+    plt.ylabel('ylabel')
+```
+
+<img src="images/EDAplot-box.png?raw=true"/>
+
+
+In the rest of this article, I am going to pre-process dataset in order to have the dataset ready for performing machine learning, which I will have another post for machine learning models. Therefire, here I divided the dataset into X which is predictor and y which is response variable. Variable f is the names of the predictors. 
     
 ```python
 X = data.iloc[:, :-1].to_numpy()
@@ -461,7 +486,7 @@ len(X),y,f
       'sulphates',
       'alcohol'])
       
-    
+I am doing multiple regression by using [statsmodels](https://www.statsmodels.org/stable/index.html) module. Lots of information provided in the results but here I only looked at the t-value of each variable to see if it is [significant](https://support.minitab.com/en-us/minitab-express/1/help-and-how-to/modeling-statistics/regression/how-to/multiple-regression/interpret-the-results/key-results/), we can conclude that there is a association between the response and variable.
       
 ```python
 linear_regression_model = statsmodels.api.OLS(y,X)
@@ -507,6 +532,7 @@ print(linear_regression_model_fitted.summary(), '\n')
     [2] Standard Errors assume that the covariance matrix of the errors is correctly specified.
     [3] The condition number is large, 7.71e+03. This might indicate that there are
     strong multicollinearity or other numerical problems. 
+    
     
 
     
