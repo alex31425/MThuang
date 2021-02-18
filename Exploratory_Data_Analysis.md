@@ -392,7 +392,7 @@ for column in data:
     fig.show()
 
 ```  
-
+<img src="images/EDAplot-boxviolin.png?raw=true"/>
     
     
     
@@ -402,7 +402,7 @@ for column in data:
 sns.heatmap(data.isnull(), cbar=False)
 ```
 
-
+<img src="images/EDAplot-missingvalueheatmap.png?raw=true"/>
 
 ```python
 for c in data.columns[:-2]:
@@ -413,16 +413,16 @@ for c in data.columns[:-2]:
     plt.ylabel('ylabel')
 ```
 
-
+<img src="images/EDAplot-boxviolin.png?raw=true"/>
 
 
 ```python
 print( "Each category within the quality column has the following count : ")
 print(data.groupby(['quality']).size())
 index = data['quality'].unique()
-Win_Loss_plot = data['quality'].value_counts(sort=True, ascending=False).plot(kind='bar',figsize=(5,5),title="Total number for occurences of quality " + str(data['quality'].count()))
-Win_Loss_plot.set_xlabel("Quality")
-Win_Loss_plot.set_ylabel("Frequency")
+quality_plot = data['quality'].value_counts(sort=True, ascending=False).plot(kind='bar',figsize=(5,5),title="Total number for occurences of quality " + str(data['quality'].count()))
+quality_plot.set_xlabel("Quality")
+quality_plot.set_ylabel("Frequency")
 ```
 
     Each category within the quality column has the following count : 
@@ -436,7 +436,7 @@ Win_Loss_plot.set_ylabel("Frequency")
     9       5
     dtype: int64
     
-    
+<img src="images/EDAplot-qualityhist.png?raw=true"/>      
     
 ```python
 X = data.iloc[:, :-1].to_numpy()
@@ -463,7 +463,7 @@ len(X),y,f
       'sulphates',
       'alcohol'])
       
-      
+    
       
 ```python
 linear_regression_model = statsmodels.api.OLS(y,X)
