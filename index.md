@@ -9,7 +9,9 @@
 <br>
 Nowadays data science is a trending topic. When a data scientist is starting a data science project, there are a few stpes that normally need to follow in order to complete a project.
 
-[Read more](https://alex31425.github.io/MTHuang/Python_Basics_Cheat_Sheets)
+[Read more](https://alex31425.github.io/MTHuang/Data_Science_Life-Cycle)
+
+
 ---
 ## Python Basics & Cheat Sheets
 
