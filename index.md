@@ -5,11 +5,7 @@
 
 [![Data_Science_lifecycle](images/Data_Science_lifecycle.png)](https://alex31425.github.io/MTHuang/images/Data_Science_lifecycle.png?raw=true){:target="_blank"} 
 <figcaption><a href="https://docs.microsoft.com/en-us/azure/machine-learning/team-data-science-process/lifecycle">Image source</a></figcaption>{:target="_blank"} 
-<figure>
-    
-    <img src="images/Data_Science_lifecycle.png?raw=true"/>
-    <figcaption><a href="https://docs.microsoft.com/en-us/azure/machine-learning/team-data-science-process/lifecycle">Image source</a></figcaption>
-</figure>
+
 <br>
 Nowadays data science is a trending topic. When a data scientist is starting a data science project, there are a few stpes that normally need to follow in order to complete a project.
 
