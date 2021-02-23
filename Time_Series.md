@@ -3,3 +3,4 @@
 - [Fundamental Statistics](https://sites.google.com/site/fundamentalstatistics/unit-1-the-basics)
 - [Basic Concepts About Time Series](https://daihongchen2011.medium.com/some-basic-concepts-of-time-series-forecasting-c0f28c9f08e0)
 - [Resources for Time-series Data Analysis in R and Python](https://medium.com/towards-artificial-intelligence/resources-for-time-series-data-analysis-in-r-and-python-687ff9da06dd)
+- [Different Types of Time Series Decomposition](https://towardsdatascience.com/different-types-of-time-series-decomposition-396c09f92693)
