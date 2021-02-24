@@ -6,11 +6,11 @@ Nowadays data science is a trending topic. When a data scientist is starting a d
 <br>
 - **Business understanding/problem identification**
 <br>
-Our ultimate goal is to solve a problem/issue that a company that is facing and needs to come up with a soluation to fix it. Otherwise this problem/issue may ,for example,affect the profit margins or customer satification. Image you work for a bank as a data scientist and that marketing department recently noticed that the number of credit card applications is decreasing compared to the same period last year. 
-
+Our ultimate goal is to solve a problem/issue that a company that is facing and needs to come up with a soluation to fix it. Otherwise this problem/issue may ,for example,affect the profit margins or customer satification. Image you work for a bank as a data scientist and that marketing department recently noticed that the number of credit card applications is decreasing compared to the same period last year. Therefore, your task is to find out what factors that may influence the churn rate. 
+<br>
+Next is to define the project goal. Generally speaking, the goal have two types : continuous(regression) or categorical(classification). For example, what will be the sales amount for the next quarter? This is the regression problem. On the other hand, determin whether this customer would stop using our product is a classification problem : Yes or no.      
 - **Data acquisition/data understanding**
 
-- **Data acquisition/data understanding**
 
 - **Model building**
 
