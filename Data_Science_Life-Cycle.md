@@ -2,8 +2,9 @@
 <figcaption><a href="https://docs.microsoft.com/en-us/azure/machine-learning/team-data-science-process/lifecycle">Image source</a></figcaption>{:target="_blank"} 
 
 <br>
-Nowadays data science is a trending topic. When a data scientist is starting a data science project, there are a few stpes that normally need to follow in order to complete a project. In this article, I will walk you through these steps and 
-
+Nowadays data science is a trending topic. When a data scientist is starting a data science project, there are a few stpes that normally need to follow in order to complete a project. In this article, I will walk you through these steps and learn how to do a data science project by follwoing these steps. These steps are not linear process as you can see the above diagram. We may need to run the steps iteratively and find the best models that meet our initial objects. 
+<br>
+- **Business understanding/problem identification**
 
 Reference
 - [The “Generic” Data Science Life-Cycle](https://towardsdatascience.com/stoend-to-end-data-science-life-cycle-6387523b5afc)
