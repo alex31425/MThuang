@@ -5,6 +5,16 @@
 Nowadays data science is a trending topic. When a data scientist is starting a data science project, there are a few stpes that normally need to follow in order to complete a project. In this article, I will walk you through these steps and learn how to do a data science project by follwoing these steps. These steps are not linear process as you can see the above diagram. We may need to run the steps iteratively and find the best models that meet our initial objects. 
 <br>
 - **Business understanding/problem identification**
+<br>
+Our ultimate goal is to solve a problem/issue that a company that is facing and needs to come up with a soluation to fix it. Otherwise this problem/issue may ,for example,affect the profit margins or customer satification. Image you work for a bank as a data scientist and that marketing department recently noticed that the number of credit card applications is decreasing compared to the same period last year. 
+
+- **Data acquisition/data understanding**
+
+- **Data acquisition/data understanding**
+
+- **Model building**
+
+- **Model deployment**
 
 Reference
 - [The “Generic” Data Science Life-Cycle](https://towardsdatascience.com/stoend-to-end-data-science-life-cycle-6387523b5afc)
