@@ -4,3 +4,7 @@
 - [Basic Concepts About Time Series](https://daihongchen2011.medium.com/some-basic-concepts-of-time-series-forecasting-c0f28c9f08e0)
 - [Resources for Time-series Data Analysis in R and Python](https://medium.com/towards-artificial-intelligence/resources-for-time-series-data-analysis-in-r-and-python-687ff9da06dd)
 - [Different Types of Time Series Decomposition](https://towardsdatascience.com/different-types-of-time-series-decomposition-396c09f92693)
+- [What Is a Moving Average Model?](https://365datascience.com/tutorials/time-series-analysis-tutorials/moving-average-model/)
+- [Moving Average Models](https://online.stat.psu.edu/stat510/lesson/2/2.1)
+- [Modelling Time Series](https://bookdown.org/JakeEsprabens/431-Time-Series/modelling-time-series.html)
+- [Moving-average (MA) models](https://nwfsc-timeseries.github.io/atsa-labs/sec-tslab-moving-average-ma-models.html)
