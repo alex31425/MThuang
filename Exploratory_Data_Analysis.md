@@ -986,4 +986,6 @@ Reference :
 - [Exploratory data analysis in Python](https://towardsdatascience.com/exploratory-data-analysis-in-python-c9a77dfa39ce)
 - [Exploratory Data Analysis, Feature Engineering, and Modelling using Supermarket Sales Data](https://towardsdatascience.com/exploratory-data-analysis-feature-engineering-and-modelling-using-supermarket-sales-data-part-1-228140f89298)
 - [EDA Using Panda’s Profiling](https://towardsdatascience.com/eda-using-pandas-profiling-3291d6e856bb)
+- [Histograms with Plotly Express: Complete Guide](https://towardsdatascience.com/histograms-with-plotly-express-complete-guide-d483656c5ad7)
+- [Python Plotting for Exploratory Data Analysis](https://pythonplot.com/)
 
