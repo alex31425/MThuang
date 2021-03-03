@@ -12,7 +12,8 @@ Next is to define the project goal. Generally speaking, the goal have two types 
 <br>
 
 - **Data acquisition/data understanding**
-Once the problem is identified, the data scientists can begin collecting the data. Usually, the data source can be categorized into three types : structured data, semistructured data, and unstructured data. Depends on the data source, the collected data could be one of the type or mix of these three types. 
+<br>
+Once the problem is identified, the data scientists can begin collecting the data. Usually, the data source can be categorized into three types : structured data, semistructured data, and unstructured data. Depends on the data source, the collected data could be one of the type or mix of these three types. [ETL](https://www.talend.com/resources/what-is-etl/)—Extract, Transform, Load—is the process of collecting data from multiple source, transforming that data into a common type, and consolidating it into a single, centralized location. Once the data has been extracted, transformed, and loaded to the data warehouse, we should do the [exploratory data analysis](https://alex31425.github.io/MTHuang/Exploratory_Data_Analysis) in order to analyze data sets to summarize their main characteristics.
 
 
 - **Model building**
