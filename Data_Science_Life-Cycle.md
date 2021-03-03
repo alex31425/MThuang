@@ -16,7 +16,10 @@ Next is to define the project goal. Generally speaking, the goal have two types 
 Once the problem is identified, the data scientists can begin collecting the data. Usually, the data source can be categorized into three types : structured data, semistructured data, and unstructured data. Depends on the data source, the collected data could be one of the type or mix of these three types. [ETL](https://www.talend.com/resources/what-is-etl/)—Extract, Transform, Load—is the process of collecting data from multiple source, transforming that data into a common type, and consolidating it into a single, centralized location. Once the data has been extracted, transformed, and loaded to the data warehouse, we should do the [exploratory data analysis](https://alex31425.github.io/MTHuang/Exploratory_Data_Analysis) in order to analyze data sets to summarize their main characteristics.
 
 
-- **Model building**
+- **Feature engineering & Model building**
+<br>
+Before building the models, we need to transform raw variables to create the features from raw data by using the domain knowledge. This process is known as feature engineering which is an important process to understand how the features relate to each other and feed these features to your models. Informative variables improve the models accuracy. Then, based on the questions we would like to answer, there are many modeling algorithms available. Once the algorithms are chosen, it's time to train the models. First, the dataset needs to be split into training and test datasets. Then we can feed the training dataset to our models and evaluate the models accuracy. This process could be repetitive until we reach the desire result.     
+
 
 - **Model deployment**
 
