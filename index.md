@@ -77,17 +77,9 @@ What is the exploratory data analysis? According to the [Wikipedia](https://en.w
 ---
 
 ## Feature Selection & Engineering 
-- [The Art of Finding the Best Features for Machine Learning](https://towardsdatascience.com/the-art-of-finding-the-best-features-for-machine-learning-a9074e2ca60d)
-- [Feature Selection in Python](https://medium.com/towards-artificial-intelligence/feature-selection-in-python-predictive-hacks-8805b136955e)
-- [Preprocessing: OneHotEncoder() vs pandas.get_dummies](https://albertum.medium.com/preprocessing-onehotencoder-vs-pandas-get-dummies-3de1f3d77dcc)
-- [5 Concepts Every Data Scientist Should Know](https://towardsdatascience.com/5-concepts-every-data-scientist-should-know-16c74d080a83)
-- [Features Engineering: behind the scenes of ML algorithms](https://medium.com/datadriveninvestor/features-engineering-behind-the-scenes-of-ml-algorithms-e356e38073d)
-- [Kaggle House Prices Prediction with Linear Regression and Gradient Boosting](https://medium.com/analytics-vidhya/kaggle-house-prices-prediction-with-linear-regression-and-gradient-boosting-c5694d9c6df4)
-- [Feature Selection in Machine Learning](https://medium.com/towards-artificial-intelligence/feature-selection-in-machine-learning-3b2902852933)
-- [3 Top Feature Selection Techniques in Machine Learning](https://medium.com/swlh/feature-selection-methods-in-machine-learning-67d71a6bce21)
-- [Feature Engineering — Recursive Feature Elimination With Cross-Validation](https://towardsdatascience.com/feature-engineering-recursive-feature-elimination-with-cross-validation-745d594df730)
-- [Backward Elimination for Feature Selection in Machine Learning](https://towardsdatascience.com/backward-elimination-for-feature-selection-in-machine-learning-c6a3a8f8cef4)
+
 ---
+
 ## Evaluation Metrics Machine Learning
 - [Confusion Matrix](https://towardsdatascience.com/understanding-the-confusion-matrix-and-its-business-applications-c4e8aaf37f42)
 - [AUC - ROC Curve](https://towardsdatascience.com/understanding-auc-roc-curve-68b2303cc9c5)
