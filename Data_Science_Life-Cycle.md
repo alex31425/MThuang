@@ -33,3 +33,5 @@ Reference
 - [The Team Data Science Process lifecycle](https://docs.microsoft.com/en-us/azure/machine-learning/team-data-science-process/lifecycle)
 - [Life Cycle of a Data Science Project](https://www.dezyre.com/article/life-cycle-of-a-data-science-project/270)
 - [The Data Science Life Cycle](https://www.dezyre.com/article/life-cycle-of-a-data-science-project/270)
+- [Overview of Different Approaches to Deploying Machine Learning Models in Production](https://www.kdnuggets.com/2019/06/approaches-deploying-machine-learning-production.html)
+- [How to Deploy Machine Learning Models using Flask](https://www.analyticsvidhya.com/blog/2020/04/how-to-deploy-machine-learning-model-flask/)
