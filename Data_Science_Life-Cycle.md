@@ -22,7 +22,7 @@ Before building the models, we need to transform raw variables to create the fea
 
 
 - **Model deployment**
-
+<br>
 In the previous step, we have build several models and feed the training to train the models. We used [metrics](https://machinelearningmastery.com/metrics-evaluate-machine-learning-algorithms-python/) to evaluate our models' performances. Finally, the best model is chosen. Let's recall in the step 1, the main goal of models building is to answer the question we defined in the step 1 so the final model should be available for the end-users. Therefore, the model should be deployed and implement it into productions as web-services. There are a variety of web-services available such as [AWS Lambda](https://aws.amazon.com/lambda/), [Google Cloud](https://cloud.google.com/) and [Microsoft Azure](https://azure.microsoft.com/en-us/services/functions/) or to deploy a flask or django application through a docker container (Amazon ECS, Azure Container Instance or Google Kubernetes Engine).
 
 
