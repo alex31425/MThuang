@@ -64,7 +64,6 @@ What is the exploratory data analysis? According to the [Wikipedia](https://en.w
 </figure>
 <br>
 
-- [How to Make Your Machine Learning Models Robust to Outliers](https://heartbeat.fritz.ai/how-to-make-your-machine-learning-models-robust-to-outliers-44d404067d07)
 
 ---
 - [Missing values](https://alex31425.github.io/MTHuang/mising_values)
