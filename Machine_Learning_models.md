@@ -28,3 +28,4 @@ Support Vector Machines (SVM) is a learning algorithms that analyze data for cla
 - [Data Science Concepts Explained to a Five-year-old](https://towardsdatascience.com/data-science-concepts-explained-to-a-five-year-old-ad440c7b3cbd)
 - [5 Machine Learning Regression Algorithms You Need to Know](https://medium.com/analytics-vidhya/5-regression-algorithms-you-need-to-know-theory-implementation-37993382122d)
 - [Logistic Regression: Predicting Heart Disease](https://medium.com/@pratikkumar_44281/predicting-heart-disease-using-logistic-regression-choosing-optimal-threshold-value-to-build-d0185f095844)
+- [Machine Learning Basics: Polynomial Regression](https://towardsdatascience.com/machine-learning-basics-polynomial-regression-3f9dd30223d1)
