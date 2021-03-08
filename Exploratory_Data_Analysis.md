@@ -989,4 +989,4 @@ Reference :
 - [Histograms with Plotly Express: Complete Guide](https://towardsdatascience.com/histograms-with-plotly-express-complete-guide-d483656c5ad7)
 - [Python Plotting for Exploratory Data Analysis](https://pythonplot.com/)
 - [Exploratory data analysis guide](https://towardsdatascience.com/exploratory-data-analysis-guide-4f9367ab05e5)
-
+- [10 Data Visualizations using Seaborn for Data Scientists](https://medium.datadriveninvestor.com/10-data-visualizations-using-seaborn-for-data-scientists-6362049e1e78)
