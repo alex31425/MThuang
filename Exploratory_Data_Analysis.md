@@ -988,4 +988,5 @@ Reference :
 - [EDA Using Panda’s Profiling](https://towardsdatascience.com/eda-using-pandas-profiling-3291d6e856bb)
 - [Histograms with Plotly Express: Complete Guide](https://towardsdatascience.com/histograms-with-plotly-express-complete-guide-d483656c5ad7)
 - [Python Plotting for Exploratory Data Analysis](https://pythonplot.com/)
+- [Exploratory data analysis guide](https://towardsdatascience.com/exploratory-data-analysis-guide-4f9367ab05e5)
 
