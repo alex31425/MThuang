@@ -8,3 +8,8 @@
 - [Moving Average Models](https://online.stat.psu.edu/stat510/lesson/2/2.1)
 - [Modelling Time Series](https://bookdown.org/JakeEsprabens/431-Time-Series/modelling-time-series.html)
 - [Moving-average (MA) models](https://nwfsc-timeseries.github.io/atsa-labs/sec-tslab-moving-average-ma-models.html)
+- DATASET
+  <br>
+  1. [UCI](https://archive.ics.uci.edu/ml/datasets.php?format=&task=&att=&area=&numAtt=10to100&numIns=&type=ts&sort=nameUp&view=table)
+  2. (http://calcnet.mth.cmich.edu/org/spss/prj_times_seriesdata.htm)
+  3. [world bank](https://datacatalog.worldbank.org/search/type/dataset?sort_by=changed&f%5B0%5D=field_wbddh_data_type%3A293)
