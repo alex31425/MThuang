@@ -629,9 +629,10 @@ print(f' first method : {s.symmetric_difference(s1)},\n second method : {s ^ s1 
 ---
 
 Reference :
-- https://towardsdatascience.com/essential-python-every-data-scientist-should-know-in-2021-65e571c20d19
-- https://realpython.com/tutorials/basics/
-- https://blog.finxter.com/collection-5-cheat-sheets-every-python-coder-must-own/
-- https://www.w3schools.com/python/default.asp
-- https://www.geeksforgeeks.org/python-programming-language/
-- https://medium.com/pythonland/30-python-language-tricks-that-will-make-you-a-better-coder-f08f811a7b0f
+- (https://towardsdatascience.com/essential-python-every-data-scientist-should-know-in-2021-65e571c20d19)
+- (https://realpython.com/tutorials/basics/)
+- (https://blog.finxter.com/collection-5-cheat-sheets-every-python-coder-must-own/)
+- (https://www.w3schools.com/python/default.asp)
+- (https://www.geeksforgeeks.org/python-programming-language/)
+- (https://medium.com/pythonland/30-python-language-tricks-that-will-make-you-a-better-coder-f08f811a7b0f)
+- [Which Python Data Science Package Should I Use When?](https://towardsdatascience.com/which-python-data-science-package-should-i-use-when-e98c701364c)
