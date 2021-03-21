@@ -9,3 +9,4 @@
 - [Feature Engineering — Recursive Feature Elimination With Cross-Validation](https://towardsdatascience.com/feature-engineering-recursive-feature-elimination-with-cross-validation-745d594df730)
 - [Backward Elimination for Feature Selection in Machine Learning](https://towardsdatascience.com/backward-elimination-for-feature-selection-in-machine-learning-c6a3a8f8cef4)
 - [Best Bulletproof Python Feature Selection Methods](https://towardsdatascience.com/best-bulletproof-python-feature-selection-methods-every-data-scientist-should-know-7c1027a833c6)
+- [Feature Engineering](https://towardsdatascience.com/feature-engineering-3a380ad1aa36)
