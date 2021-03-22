@@ -46,7 +46,7 @@ What is the exploratory data analysis? According to the [Wikipedia](https://en.w
 [Read more](https://alex31425.github.io/MTHuang/Exploratory_Data_Analysis)
 
 
-- [Data Normalization for Numeric features](https://alex31425.github.io/MTHuang/sample_page)
+- StandardScaler and MinMaxScaler Transformation & One hot coding 
 <br>
 <figure>
     <img src="images/data_normalization.jpg?raw=true"/>
