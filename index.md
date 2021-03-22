@@ -53,7 +53,7 @@ What is the exploratory data analysis? According to the [Wikipedia](https://en.w
     <figcaption><a href="https://www.import.io/post/what-is-data-normalization-and-why-is-it-important/">Image source</a></figcaption>
 </figure>
 <br>
-
+In the previous post, we discussed how to do the exploratory analysis to explore & discovery the patterns/characteristics of each attributes. One of the techniques is to show each attribute's summary statistic. The unit of each attribute may be different that, in turn, may result in huge differences in each attribute's range. For example, there are two columns in a dataset : one is annual income and the other is annual work hours. The range of these two attributes may be in very different range (0-2080 for work hours while 0-100000 for annual income). Differences in the scales across input variables may increase the difficulty of the problem being modeled. An example of this is that large input values can result in a model that learns large weight values. Many machine learning algorithms perform better if the attributes are scaled such as linear regression, logistic regression, and k-nearest neighbors. In this post, I am going to normalize or standardize input variables in order to use these scaled variables to feed machine learning model and compare the performance of models with scaled and unscaled input variables. 
 
 ---
 - [Outliers](https://medium.com/analytics-vidhya/detecting-outliers-using-box-and-whisker-diagrams-and-iqr-346a1b9c0dbe)
