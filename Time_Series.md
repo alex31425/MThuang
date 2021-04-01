@@ -13,3 +13,8 @@
   1. [UCI](https://archive.ics.uci.edu/ml/datasets.php?format=&task=&att=&area=&numAtt=10to100&numIns=&type=ts&sort=nameUp&view=table)
   2. (http://calcnet.mth.cmich.edu/org/spss/prj_times_seriesdata.htm)
   3. [world bank](https://datacatalog.worldbank.org/search/type/dataset?sort_by=changed&f%5B0%5D=field_wbddh_data_type%3A293)
+- [https://www.analyticsvidhya.com/blog/2016/02/time-series-forecasting-codes-python/]
+- [https://towardsdatascience.com/how-to-predict-a-time-series-part-1-6d7eb182b540]
+- [https://towardsdatascience.com/an-overview-of-time-series-forecasting-models-a2fa7a358fcb]
+- [https://boostedml.com/2020/05/visualizing-time-series-in-r.html]
+- [https://otexts.com/fpp2/seasonal-plots.html]
