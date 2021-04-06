@@ -10,3 +10,4 @@
 - [Linear Algebra for Data Science Ep 3 — Identity and Inverse Matrices](https://towardsdatascience.com/linear-algebra-for-data-science-ep-3-identity-and-inverse-matrices-70820a3fbdb9)
 - [Numpy Essentials for Data Science](https://towardsdatascience.com/numpy-essentials-for-data-science-25dc39fae39)
 - [20 NumPy Operations That Every Data Scientist Should Know](https://towardsdatascience.com/20-numpy-operations-that-every-data-scientist-should-know-fb44bb52bde5)
+- [Minimal Pandas Subset for Data Scientists](https://towardsdatascience.com/minimal-pandas-subset-for-data-scientists-6355059629ae)
