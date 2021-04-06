@@ -4,4 +4,4 @@
 - [Evaluation Metrics — Machine Learning](https://medium.com/data-stash/evaluation-metrics-machine-learning-b4de1ff1c0f9)
 - [Top 10 model performance metrics for classification ML models](https://towardsdatascience.com/top-10-model-evaluation-metrics-for-classification-ml-models-a0a0f1d51b9)
 - [Model Evaluation Techniques for Classification models](https://towardsdatascience.com/model-evaluation-techniques-for-classification-models-eac30092c38b)
-- 
+- [Various ways to evaluate a machine learning model’s performance](https://towardsdatascience.com/various-ways-to-evaluate-a-machine-learning-models-performance-230449055f15)
