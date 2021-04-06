@@ -9,3 +9,4 @@
 - [Dot Product in Linear Algebra for Data Science using Python](https://towardsdatascience.com/dot-product-in-linear-algebra-for-data-science-using-python-f113fb60c8f)
 - [Linear Algebra for Data Science Ep 3 — Identity and Inverse Matrices](https://towardsdatascience.com/linear-algebra-for-data-science-ep-3-identity-and-inverse-matrices-70820a3fbdb9)
 - [Numpy Essentials for Data Science](https://towardsdatascience.com/numpy-essentials-for-data-science-25dc39fae39)
+- [20 NumPy Operations That Every Data Scientist Should Know](https://towardsdatascience.com/20-numpy-operations-that-every-data-scientist-should-know-fb44bb52bde5)
