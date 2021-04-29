@@ -1,1 +1,2 @@
 - [Dealing with Missing Values](https://medium.com/ai-in-plain-english/dealing-with-missing-values-in-a-dataset-data-cleaning-techniques-3adfadc21831)
+- [kNN Imputation for Missing Values in Machine Learning](https://machinelearningmastery.com/knn-imputation-for-missing-values-in-machine-learning/)
